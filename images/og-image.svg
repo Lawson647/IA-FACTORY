@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="IA Factory - Apprends, construis et automatise avec l'IA">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f" />
+      <stop offset="50%" stop-color="#1a1033" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="ogGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#ogBg)" />
+  
+  <!-- Glow décoratif -->
+  <circle cx="900" cy="200" r="200" fill="url(#ogGrad)" opacity="0.15" filter="url(#ogGlow)" />
+  <circle cx="300" cy="450" r="150" fill="url(#ogGrad)" opacity="0.1" filter="url(#ogGlow)" />
+  
+  <!-- Logo -->
+  <rect x="80" y="80" width="70" height="70" rx="16" fill="url(#ogGrad)" />
+  <text x="115" y="130" fill="white" font-family="Inter, sans-serif" font-size="32" font-weight="700" text-anchor="middle">IA</text>
+  
+  <text x="170" y="110" fill="white" font-family="Inter, sans-serif" font-size="28" font-weight="600">IA Factory</text>
+  <text x="170" y="138" fill="rgba(255,255,255,0.6)" font-family="Inter, sans-serif" font-size="14">ia-factory-seven.vercel.app</text>
+  
+  <!-- Titre principal -->
+  <text x="80" y="260" fill="white" font-family="Inter, sans-serif" font-size="56" font-weight="700">Apprends, construis</text>
+  <text x="80" y="330" fill="white" font-family="Inter, sans-serif" font-size="56" font-weight="700">et automatise avec l'IA</text>
+  
+  <!-- Sous-titre -->
+  <text x="80" y="390" fill="rgba(255,255,255,0.7)" font-family="Inter, sans-serif" font-size="24">Pour indépendants, solopreneurs et petites équipes.</text>
+  <text x="80" y="420" fill="rgba(255,255,255,0.7)" font-family="Inter, sans-serif" font-size="24">Sans code. Avec résultats.</text>
+  
+  <!-- CTA visuel -->
+  <rect x="80" y="470" width="280" height="56" rx="28" fill="url(#ogGrad)" />
+  <text x="220" y="504" fill="white" font-family="Inter, sans-serif" font-size="18" font-weight="600" text-anchor="middle">Découvrir les agents IA →</text>
+  
+  <!-- Élément décoratif droite -->
+  <rect x="780" y="320" width="340" height="220" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1" rx="20" />
+  <rect x="810" y="360" width="100" height="70" fill="url(#ogGrad)" opacity="0.3" rx="12" />
+  <rect x="930" y="360" width="100" height="70" fill="rgba(255,255,255,0.1)" rx="12" />
+  <rect x="810" y="450" width="100" height="70" fill="rgba(255,255,255,0.1)" rx="12" />
+  <rect x="930" y="450" width="100" height="70" fill="url(#ogGrad)" opacity="0.3" rx="12" />
+  
+  <text x="860" y="400" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">🤖</text>
+  <text x="980" y="400" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">✍️</text>
+  <text x="860" y="490" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">💬</text>
+  <text x="980" y="490" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">🎯</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Tableau de bord IA Factory montrant des agents automatisés en action">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f" />
+      <stop offset="50%" stop-color="#120d1f" />
+      <stop offset="100%" stop-color="#0a0a0f" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bgGrad)" rx="24" />
+  
+  <!-- Sidebar -->
+  <rect x="20" y="20" width="160" height="460" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="16" />
+  <circle cx="60" cy="60" r="18" fill="url(#accentGrad)" />
+  <text x="85" y="66" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">IA Factory</text>
+  
+  <rect x="35" y="105" width="130" height="36" fill="rgba(255,255,255,0.08)" rx="8" />
+  <text x="50" y="128" fill="#a78bfa" font-family="Inter, sans-serif" font-size="12">● Agents</text>
+  <text x="50" y="168" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">Formations</text>
+  <text x="50" y="198" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">Workflows</text>
+  <text x="50" y="228" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">Analytics</text>
+  
+  <!-- Header -->
+  <rect x="200" y="20" width="580" height="70" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="16" />
+  <text x="225" y="58" fill="white" font-family="Inter, sans-serif" font-size="20" font-weight="600">Tableau de bord</text>
+  <rect x="610" y="35" width="150" height="40" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1" rx="20" />
+  <text x="660" y="60" fill="white" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">+ Nouvel agent</text>
+  
+  <!-- Agent cards -->
+  <rect x="200" y="110" width="185" height="160" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="16" />
+  <circle cx="255" cy="145" r="22" fill="rgba(139,92,246,0.2)" />
+  <text x="255" y="152" fill="#8b5cf6" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">✍️</text>
+  <text x="225" y="190" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600">Agent Rédaction</text>
+  <text x="225" y="215" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">12 exécutions</text>
+  <rect x="225" y="235" width="80" height="20" fill="rgba(34,197,94,0.2)" rx="10" />
+  <text x="265" y="249" fill="#22c55e" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Actif</text>
+  
+  <rect x="400" y="110" width="185" height="160" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="16" />
+  <circle cx="455" cy="145" r="22" fill="rgba(6,182,212,0.2)" />
+  <text x="455" y="152" fill="#06b6d4" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">💬</text>
+  <text x="425" y="190" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600">Agent Support</text>
+  <text x="425" y="215" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">8 exécutions</text>
+  <rect x="425" y="235" width="80" height="20" fill="rgba(34,197,94,0.2)" rx="10" />
+  <text x="465" y="249" fill="#22c55e" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Actif</text>
+  
+  <rect x="600" y="110" width="180" height="160" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="16" />
+  <circle cx="655" cy="145" r="22" fill="rgba(236,72,153,0.2)" />
+  <text x="655" y="152" fill="#ec4899" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">🎯</text>
+  <text x="625" y="190" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600">Agent Prospection</text>
+  <text x="625" y="215" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">5 exécutions</text>
+  <rect x="625" y="235" width="80" height="20" fill="rgba(234,179,8,0.2)" rx="10" />
+  <text x="665" y="249" fill="#eab308" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">En test</text>
+  
+  <!-- Bottom chart -->
+  <rect x="200" y="290" width="580" height="190" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="16" />
+  <text x="225" y="325" fill="white" font-family="Inter, sans-serif" font-size="16" font-weight="600">Temps gagné cette semaine</text>
+  <text x="225" y="355" fill="#22c55e" font-family="Inter, sans-serif" font-size="28" font-weight="700">+ 6h 30</text>
+  <text x="225" y="380" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="12">+18% vs semaine dernière</text>
+  
+  <!-- Chart bars -->
+  <rect x="420" y="420" width="40" height="30" fill="url(#accentGrad)" rx="6" opacity="0.6" />
+  <rect x="470" y="400" width="40" height="50" fill="url(#accentGrad)" rx="6" opacity="0.7" />
+  <rect x="520" y="370" width="40" height="80" fill="url(#accentGrad)" rx="6" opacity="0.8" />
+  <rect x="570" y="340" width="40" height="110" fill="url(#accentGrad)" rx="6" opacity="0.9" />
+  <rect x="620" y="310" width="40" height="140" fill="url(#accentGrad)" rx="6" opacity="1" />
+  <text x="440" y="470" fill="rgba(255,255,255,0.4)" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Lun</text>
+  <text x="490" y="470" fill="rgba(255,255,255,0.4)" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Mar</text>
+  <text x="540" y="470" fill="rgba(255,255,255,0.4)" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Mer</text>
+  <text x="590" y="470" fill="rgba(255,255,255,0.4)" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Jeu</text>
+  <text x="640" y="470" fill="rgba(255,255,255,0.4)" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">Ven</text>
+  
+  <!-- Connection lines -->
+  <path d="M440 435 L490 425 L540 410 L590 395 L640 380" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4" opacity="0.6" />
+</svg>

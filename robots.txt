@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /login.html
+Disallow: /inscription.html
+Disallow: /dashboard.html
+
+Sitemap: https://ia-factory-seven.vercel.app/sitemap.xml

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" role="img" aria-label="Agents IA IA Factory - Rédaction, Support, Prospection, Administration">
+  <defs>
+    <linearGradient id="agentsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f" />
+      <stop offset="100%" stop-color="#1a1033" />
+    </linearGradient>
+    <linearGradient id="agentsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="400" fill="url(#agentsBg)" rx="24" />
+  
+  <text x="350" y="45" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Vos agents IA opérationnels</text>
+  <text x="350" y="70" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Chacun est conçu pour une tâche concrète de votre business</text>
+  
+  <!-- Agent Rédaction -->
+  <rect x="35" y="110" width="145" height="240" fill="rgba(255,255,255,0.04)" stroke="rgba(139,92,246,0.3)" stroke-width="2" rx="16" />
+  <circle cx="107" cy="155" r="28" fill="url(#agentsGrad)" opacity="0.2" />
+  <text x="107" y="165" fill="#a78bfa" font-family="Inter, sans-serif" font-size="28" text-anchor="middle">✍️</text>
+  <text x="107" y="205" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Rédaction</text>
+  <text x="107" y="230" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">Posts, emails,</text>
+  <text x="107" y="245" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">proposals...</text>
+  <rect x="60" y="280" width="94" height="26" fill="rgba(139,92,246,0.2)" rx="13" />
+  <text x="107" y="297" fill="#a78bfa" font-family="Inter, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Templates inclus</text>
+  
+  <!-- Agent Support -->
+  <rect x="195" y="110" width="145" height="240" fill="rgba(255,255,255,0.04)" stroke="rgba(6,182,212,0.3)" stroke-width="2" rx="16" />
+  <circle cx="267" cy="155" r="28" fill="url(#agentsGrad)" opacity="0.2" />
+  <text x="267" y="165" fill="#22d3ee" font-family="Inter, sans-serif" font-size="28" text-anchor="middle">💬</text>
+  <text x="267" y="205" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Support Client</text>
+  <text x="267" y="230" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">Réponses 24/7,</text>
+  <text x="267" y="245" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">qualification...</text>
+  <rect x="220" y="280" width="94" height="26" fill="rgba(6,182,212,0.2)" rx="13" />
+  <text x="267" y="297" fill="#22d3ee" font-family="Inter, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Connecteur CRM</text>
+  
+  <!-- Agent Prospection -->
+  <rect x="355" y="110" width="145" height="240" fill="rgba(255,255,255,0.04)" stroke="rgba(236,72,153,0.3)" stroke-width="2" rx="16" />
+  <circle cx="427" cy="155" r="28" fill="url(#agentsGrad)" opacity="0.2" />
+  <text x="427" y="165" fill="#ec4899" font-family="Inter, sans-serif" font-size="28" text-anchor="middle">🎯</text>
+  <text x="427" y="205" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Prospection</text>
+  <text x="427" y="230" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">Listes, relances,</text>
+  <text x="427" y="245" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">personnalisation...</text>
+  <rect x="380" y="280" width="94" height="26" fill="rgba(236,72,153,0.2)" rx="13" />
+  <text x="427" y="297" fill="#ec4899" font-family="Inter, sans-serif" font-size="10" font-weight="600" text-anchor="middle">LinkedIn + email</text>
+  
+  <!-- Agent Administration -->
+  <rect x="515" y="110" width="150" height="240" fill="rgba(255,255,255,0.04)" stroke="rgba(34,197,94,0.3)" stroke-width="2" rx="16" />
+  <circle cx="590" cy="155" r="28" fill="url(#agentsGrad)" opacity="0.2" />
+  <text x="590" y="165" fill="#4ade80" font-family="Inter, sans-serif" font-size="28" text-anchor="middle">📋</text>
+  <text x="590" y="205" fill="white" font-family="Inter, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Administration</text>
+  <text x="590" y="230" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">Classement, docs,</text>
+  <text x="590" y="245" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="11" text-anchor="middle">rappels...</text>
+  <rect x="540" y="280" width="100" height="26" fill="rgba(34,197,94,0.2)" rx="13" />
+  <text x="590" y="297" fill="#4ade80" font-family="Inter, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Notion, Drive...</text>
+</svg>

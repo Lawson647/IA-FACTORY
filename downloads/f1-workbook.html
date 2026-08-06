@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Workbook Élève — F1 : De formateur à formateur IA</title>
+<style>
+@page { size: A4; margin: 18mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.55;
+  color: #1a1a1a;
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 18mm;
+}
+.cover {
+  text-align: center;
+  padding: 60px 20px;
+  page-break-after: always;
+}
+.cover h1 { font-size: 28pt; margin-bottom: 12px; color: #111; }
+.cover .subtitle { font-size: 14pt; color: #555; margin-bottom: 40px; }
+.cover .brand { font-size: 12pt; color: #777; letter-spacing: 1px; text-transform: uppercase; }
+h1 { font-size: 20pt; margin-top: 30px; border-bottom: 2px solid #000; padding-bottom: 6px; page-break-after: avoid; }
+h2 { font-size: 15pt; margin-top: 24px; color: #222; page-break-after: avoid; }
+h3 { font-size: 13pt; margin-top: 20px; color: #333; page-break-after: avoid; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0; padding-left: 22px; }
+li { margin: 3px 0; }
+blockquote {
+  background: #f7f7f7;
+  border-left: 4px solid #333;
+  margin: 12px 0;
+  padding: 10px 14px;
+  font-style: italic;
+}
+blockquote p { margin: 0; }
+.mdtable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 10.5pt;
+}
+.mdtable th, .mdtable td {
+  border: 1px solid #bbb;
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.mdtable th { background: #f0f0f0; font-weight: bold; }
+.mdtable td { min-width: 60px; }
+.checklist { list-style: none; padding-left: 0; }
+.checklist li { margin: 4px 0; }
+hr { border: none; border-top: 1px solid #ccc; margin: 20px 0; }
+a { color: #000; text-decoration: underline; }
+.toc { page-break-after: always; }
+.toc ul { list-style: none; padding-left: 0; }
+.toc li { margin: 5px 0; }
+.toc a { text-decoration: none; }
+.fill { color: #888; } /* helper: placeholder rows stay neutral */
+@media print {
+  body { padding: 0; }
+  h1, h2, h3 { page-break-after: avoid; }
+  .mdtable { page-break-inside: avoid; }
+  blockquote { page-break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="brand">IA Factory — Formation F1</div>
+  <h1>Workbook Élève</h1>
+  <div class="subtitle">De formateur à formateur IA<br>Trouver votre angle, votre cible et votre premier client</div>
+</div>
+<div class="content">
+<p><strong>Trouver votre angle, votre cible et votre premier client</strong></p>
+<hr>
+<h2 id="comment-utiliser-ce-workbook">Comment utiliser ce workbook</h2>
+<p>Ce document est votre terrain de jeu pendant la formation F1. Il contient :  </p>
+<ul>
+<li>les exercices à faire en direct ;  </li>
+<li>les templates à compléter ;  </li>
+<li>les fiches récap à conserver ;  </li>
+<li>les checklists pour ne rien oublier après la formation.</li>
+</ul>
+<p><strong>Conseil :</strong> imprimez-le ou ouvrez-le dans un éditeur de texte. Remplissez chaque zone au fur et à mesure. À la fin, vous repartirez avec une fiche offre prête à être envoyée.</p>
+<hr>
+<h1 id="sommaire">Sommaire</h1>
+<ol>
+<li><a href="f1-workbook.html#avant-de-commencer">Avant de commencer</a></li>
+<li><a href="f1-workbook.html#module-a--se-positionner-comme-formateur-ia">Module A — Se positionner comme formateur IA</a></li>
+</ol>
+<ul>
+<li>A1. Pourquoi vous, pourquoi maintenant ?</li>
+<li>A2. Votre angle unique en 3 phrases</li>
+<li>A3. Crédibilité et posture de formateur</li>
+</ul>
+<ol>
+<li><a href="f1-workbook.html#module-b--cibler-et-concevoir-son-premier-sujet">Module B — Cibler et concevoir son premier sujet</a></li>
+</ol>
+<ul>
+<li>B1. Choisir sa cible prioritaire</li>
+<li>B2. Transformer un besoin en sujet de formation</li>
+<li>B3. Éprouver son sujet avant de le construire</li>
+</ul>
+<ol>
+<li><a href="f1-workbook.html#module-c--préparer-son-premier-client">Module C — Préparer son premier client</a></li>
+</ol>
+<ul>
+<li>C1. La fiche offre complète</li>
+<li>C2. Vendre sa formation sans être vendeur</li>
+<li>C3. Plan d'action 7 jours</li>
+</ul>
+<ol>
+<li><a href="f1-workbook.html#templates-et-checklists">Templates et checklists</a></li>
+</ol>
+<hr>
+<h1 id="avant-de-commencer">Avant de commencer</h1>
+<h2 id="objectifs-de-la-formation-f1">Objectifs de la formation F1</h2>
+<p>À la fin de cette journée (6h), vous serez capable de :</p>
+<ol>
+<li>Identifier votre <strong>angle unique</strong> de formateur IA à partir de votre expérience.</li>
+<li>Choisir une <strong>cible prioritaire</strong> accessible, motivée et solvable.</li>
+<li>Formuler un <strong>premier sujet de formation</strong> clair et orienté résultat.</li>
+<li>Construire une <strong>fiche offre</strong> complète (titre, promesse, public, programme, format, prix, arguments).</li>
+<li>Préparer vos <strong>5 premières actions</strong> pour contacter votre premier client.</li>
+</ol>
+<h2 id="ce-que-vous-repartez-avec">Ce que vous repartez avec</h2>
+<table class="mdtable"><thead><tr><th>Livrable</th><th>Utilisation immédiate</th></tr></thead><tbody><tr><td>Fiche &quot;expertise + impact&quot;</td><td>Base de votre communication</td></tr><tr><td>Angle de formateur IA</td><td>Bio, pitch, annonces</td></tr><tr><td>Cible prioritaire</td><td>Focus commercial</td></tr><tr><td>3 titres de formation potentiels</td><td>Test auprès de la cible</td></tr><tr><td>Protocole de validation</td><td>Vérifier l&#x27;adéquation offre/marché</td></tr><tr><td>**Fiche offre complète**</td><td>**Proposer la formation à un client**</td></tr><tr><td>5 messages d&#x27;approche personnalisés</td><td>Contacter votre réseau chaud</td></tr><tr><td>Plan d&#x27;action 7 jours</td><td>Passer à l&#x27;action dès demain</td></tr></tbody></table>
+<h2 id="votre-engagement-personnel">Votre engagement personnel</h2>
+<p>Répondez à ces 3 questions avant de commencer :</p>
+<ol>
+<li><strong>Pourquoi voulez-vous devenir formateur IA aujourd'hui ?</strong></li>
+</ol>
+<blockquote>___________________________________________________________________ ___________________________________________________________________</blockquote>
+<ol>
+<li><strong>Quel est le métier, le secteur ou le problème que vous connaissez le mieux ?</strong></li>
+</ol>
+<blockquote>___________________________________________________________________ ___________________________________________________________________</blockquote>
+<ol>
+<li><strong>Quelle transformation concrète voulez-vous produire chez vos futurs élèves ?</strong></li>
+</ol>
+<blockquote>___________________________________________________________________ ___________________________________________________________________</blockquote>
+<hr>
+<h1 id="module-a-se-positionner-comme-formateur-ia">Module A — Se positionner comme formateur IA</h1>
+<p><strong>Objectif du module :</strong> définir votre angle unique et crédible de formateur IA.</p>
+<hr>
+<h2 id="a1-pourquoi-vous-pourquoi-maintenant">A1 — Pourquoi vous, pourquoi maintenant ?</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Tout expert IA peut devenir formateur s&#x27;il cible une transformation concrète qu&#x27;il sait produire.</blockquote>
+<p>Vous n'avez pas besoin d'être un ingénieur. Vous devez juste savoir <strong>faire une transformation</strong> et la <strong>transmettre</strong> à une cible claire.</p>
+<h3 id="exercice-carte-dx27identité-ia">Exercice : Carte d&#x27;identité IA</h3>
+<p>Listez les éléments suivants en 10 minutes maximum.</p>
+<h4 id="1-mes-3-usages-ia-maîtrisés-au-quotidien">1. Mes 3 usages IA maîtrisés au quotidien</h4>
+<table class="mdtable"><thead><tr><th>Usage IA</th><th>Outil utilisé</th><th>Fréquence</th><th>Ce que cela me fait gagner</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td></tr></tbody></table>
+<h4 id="2-les-2-métiers-ou-secteurs-que-je-connais-bien">2. Les 2 métiers ou secteurs que je connais bien</h4>
+<table class="mdtable"><thead><tr><th>Métier / Secteur</th><th>Depuis quand ?</th><th>Quels problèmes je connais ?</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td></tr></tbody></table>
+<h4 id="3-le-problème-récurrent-que-jx27observe-chez-mes-clients-collègues">3. Le problème récurrent que j&#x27;observe chez mes clients / collègues</h4>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<h3 id="fiche-quotexpertise-impactquot-livrable-a1">Fiche &quot;expertise + impact&quot; (livrable A1)</h3>
+<p>Résumez votre profil en une page.</p>
+<table class="mdtable"><thead><tr><th>Ma compétence IA</th><th>Mon contexte métier</th><th>Le problème que je résous</th><th>La transformation promise</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p><strong>Ma phrase d'introduction rapide :</strong></p>
+<blockquote>&quot;Je forme _____________________ à _____________________ pour qu&#x27;ils _____________________.&quot;</blockquote>
+<hr>
+<h2 id="a2-votre-angle-unique-en-3-phrases">A2 — Votre angle unique en 3 phrases</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Positionnement = compétence IA × contexte métier × résultat promis.</blockquote>
+<h3 id="exercice-générer-3-propositions-dx27angle">Exercice : Générer 3 propositions d&#x27;angle</h3>
+<p>Complétez le modèle suivant 3 fois avec des variations.</p>
+<p><strong>Modèle :</strong>  </p>
+<p><em>"Je aide [QUI] à [FAIRE QUOI] grâce à [OUTIL IA], pour obtenir [RÉSULTAT CONCRET]."</em></p>
+<table class="mdtable"><thead><tr><th>Proposition</th><th>Qui ?</th><th>Faire quoi ?</th><th>Outil IA</th><th>Résultat concret</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="critères-de-choix-de-lx27angle-le-plus-vendeur">Critères de choix de l&#x27;angle le plus vendeur</h3>
+<p>Cochez la case correspondante pour chaque proposition.</p>
+<table class="mdtable"><thead><tr><th>Critère</th><th>Angle 1</th><th>Angle 2</th><th>Angle 3</th></tr></thead><tbody><tr><td>Je le comprends en une phrase</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>La cible est identifiable</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Le résultat est mesurable ou visible</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>J&#x27;ai au moins 1 preuve concrète</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>J&#x27;ai envie de le défendre</td><td>☐</td><td>☐</td><td>☐</td></tr></tbody></table>
+<h3 id="angle-retenu">Angle retenu</h3>
+<p><strong>Mon angle de formateur IA :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________</blockquote>
+<p><strong>Pourquoi celui-ci ?</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________</blockquote>
+<hr>
+<h2 id="a3-crédibilité-et-posture-de-formateur">A3 — Crédibilité et posture de formateur</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>La crédibilité vient de l&#x27;exemple concret, pas du titre.</blockquote>
+<h3 id="exercice-analyse-de-2-profils">Exercice : Analyse de 2 profils</h3>
+<p>Voici deux profils types de formateur IA. Qu'est-ce qui les rend crédibles ?</p>
+<p><strong>Profil 1 :</strong> "Consultante RH, j'ai automatisé mes fiches de poste avec ChatGPT. Je forme les équipes RH à gagner 4h par semaine sur leurs recrutements."</p>
+<blockquote>Ce qui crée la crédibilité : ___________________________________________</blockquote>
+<p><strong>Profil 2 :</strong> "Formateur indépendant en bureautique depuis 10 ans. J'ai accompagné 200 secrétaires à passer de Word classique à Copilot."</p>
+<blockquote>Ce qui crée la crédibilité : ___________________________________________</blockquote>
+<h3 id="exercice-ajustez-votre-propre-profil">Exercice : Ajustez votre propre profil</h3>
+<p>Réécrivez votre bio ou annonce de formateur IA en utilisant le modèle suivant.</p>
+<p><strong>Modèle :</strong></p>
+<blockquote>&quot;[Rôle actuel], j&#x27;ai [résultat concret obtenu avec l&#x27;IA]. Je forme [cible] à [transformation] en [durée/format].&quot;</blockquote>
+<p><strong>Brouillon de ma bio / annonce :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<h3 id="checklist-de-crédibilité">Checklist de crédibilité</h3>
+<ul>
+<li>[ ] J'ai un résultat concret à raconter.</li>
+<li>[ ] J'ai une cible claire.</li>
+<li>[ ] J'ai un outil IA précis.</li>
+<li>[ ] J'ai une promesse chiffrée ou visible.</li>
+<li>[ ] Ma formulation tient en 2 phrases maximum.</li>
+</ul>
+<hr>
+<h1 id="module-b-cibler-et-concevoir-son-premier-sujet">Module B — Cibler et concevoir son premier sujet</h1>
+<p><strong>Objectif du module :</strong> choisir une cible accessible et structurer un sujet de formation vendable.</p>
+<hr>
+<h2 id="b1-choisir-sa-cible-prioritaire">B1 — Choisir sa cible prioritaire</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Mieux vaut une petite cible très motivée qu&#x27;une cible trop large et indifférente.</blockquote>
+<h3 id="exercice-listez-3-segments-possibles">Exercice : Listez 3 segments possibles</h3>
+<table class="mdtable"><thead><tr><th>Segment</th><th>Qui sont-ils ?</th><th>Où les trouver ?</th><th>Besoin IA observé</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="matrice-de-choix-accessibilité-urgence-budget">Matrice de choix : Accessibilité / Urgence / Budget</h3>
+<p>Notez chaque segment de 1 à 5 pour chaque critère.</p>
+<table class="mdtable"><thead><tr><th>Segment</th><th>Accessibilité (facile à contacter ?)</th><th>Urgence (besoin immédiat ?)</th><th>Budget (capacité à payer ?)</th><th>Total</th></tr></thead><tbody><tr><td>1.</td><td>/5</td><td>/5</td><td>/5</td><td>/15</td></tr><tr><td>2.</td><td>/5</td><td>/5</td><td>/5</td><td>/15</td></tr><tr><td>3.</td><td>/5</td><td>/5</td><td>/5</td><td>/15</td></tr></tbody></table>
+<h3 id="cible-prioritaire-retenue">Cible prioritaire retenue</h3>
+<p><strong>Ma cible prioritaire :</strong></p>
+<blockquote>___________________________________________________________________</blockquote>
+<p><strong>Justification :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________</blockquote>
+<p><strong>3 endroits où je peux la trouver rapidement :</strong></p>
+<ol>
+<li>___________________________________________________________________</li>
+<li>___________________________________________________________________</li>
+<li>___________________________________________________________________</li>
+</ol>
+<hr>
+<h2 id="b2-transformer-un-besoin-en-sujet-de-formation">B2 — Transformer un besoin en sujet de formation</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Un bon sujet répond à : &quot;Après cette formation, je saurai faire X concrètement.&quot;</blockquote>
+<h3 id="exercice-analyse-de-5-demandes-types">Exercice : Analyse de 5 demandes types</h3>
+<p>Transformez chaque demande floue en titre de formation orienté résultat.</p>
+<table class="mdtable"><thead><tr><th>Demande brute</th><th>Titre de formation orienté résultat</th></tr></thead><tbody><tr><td>&quot;On voudrait comprendre ChatGPT&quot;</td><td></td></tr><tr><td>&quot;L&#x27;équipe perd du temps sur les mails&quot;</td><td></td></tr><tr><td>&quot;Les commerciaux ne savent pas utiliser l&#x27;IA&quot;</td><td></td></tr><tr><td>&quot;On veut automatiser les rapports&quot;</td><td></td></tr><tr><td>&quot;Les profs ont peur de l&#x27;IA&quot;</td><td></td></tr></tbody></table>
+<h3 id="exercice-vos-3-titres-de-formation">Exercice : Vos 3 titres de formation</h3>
+<p>Partez de votre angle (A2) et de votre cible (B1).</p>
+<table class="mdtable"><thead><tr><th>Titre potentiel</th><th>Public</th><th>Résultat promis</th><th>Durée / Format</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="test-de-clarté">Test de clarté</h3>
+<p>Pour chaque titre, vérifiez : un non-initié le comprend-il en 10 secondes ?</p>
+<table class="mdtable"><thead><tr><th>Titre</th><th>Compris en 10s ?</th><th>Orienté résultat ?</th><th>Différencié ?</th></tr></thead><tbody><tr><td>1.</td><td>☐ Oui ☐ Non</td><td>☐ Oui ☐ Non</td><td>☐ Oui ☐ Non</td></tr><tr><td>2.</td><td>☐ Oui ☐ Non</td><td>☐ Oui ☐ Non</td><td>☐ Oui ☐ Non</td></tr><tr><td>3.</td><td>☐ Oui ☐ Non</td><td>☐ Oui ☐ Non</td><td>☐ Oui ☐ Non</td></tr></tbody></table>
+<p><strong>Titre retenu (ou celui que vous allez tester en priorité) :</strong></p>
+<blockquote>___________________________________________________________________</blockquote>
+<hr>
+<h2 id="b3-éprouver-son-sujet-avant-de-le-construire">B3 — Éprouver son sujet avant de le construire</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Un sujet viable = au moins 3 personnes prêtes à payer ou à recommander.</blockquote>
+<h3 id="exercice-protocole-de-validation-rapide">Exercice : Protocole de validation rapide</h3>
+<p>Rédigez 3 questions à poser à 5 contacts potentiels.</p>
+<p><strong>Règles :</strong></p>
+<ul>
+<li>Pas de questions oui/non.</li>
+<li>Privilégiez les situations concrètes.</li>
+<li>Demandez des chiffres ou des exemples.</li>
+</ul>
+<table class="mdtable"><thead><tr><th>#</th><th>Question</th><th>Ce que je cherche à vérifier</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td></tr></tbody></table>
+<h3 id="liste-de-5-contacts-à-interroger">Liste de 5 contacts à interroger</h3>
+<table class="mdtable"><thead><tr><th>Nom</th><th>Lien avec vous</th><th>Segment / Métier</th><th>Canal de contact</th><th>Date de contact</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td><td></td></tr><tr><td>4.</td><td></td><td></td><td></td><td></td></tr><tr><td>5.</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="checklist-de-validation">Checklist de validation</h3>
+<ul>
+<li>[ ] J'ai posé mes 3 questions à au moins 3 contacts.</li>
+<li>[ ] J'ai noté les mots exacts utilisés par mes interlocuteurs.</li>
+<li>[ ] J'ai identifié au moins 1 sujet qui suscite de l'enthousiasme.</li>
+<li>[ ] J'ai demandé si mon interlocuteur paierait ou connaît quelqu'un qui paierait.</li>
+<li>[ ] J'ai ajusté mon titre ou ma cible à l'issue des échanges.</li>
+</ul>
+<hr>
+<h1 id="module-c-préparer-son-premier-client">Module C — Préparer son premier client</h1>
+<p><strong>Objectif du module :</strong> structurer l'offre et planifier les premières actions commerciales.</p>
+<hr>
+<h2 id="c1-la-fiche-offre-complète">C1 — La fiche offre complète</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Une offre claire vend toute seule : titre, promesse, public, programme, format, prix, preuves.</blockquote>
+<h3 id="exercice-remplir-votre-fiche-offre">Exercice : Remplir votre fiche offre</h3>
+<p>Utilisez le template suivant. Complétez chaque champ avant de passer au module C2.</p>
+<table class="mdtable"><thead><tr><th>Champ</th><th>Votre contenu</th></tr></thead><tbody><tr><td>**Titre de la formation**</td><td></td></tr><tr><td>**Promesse en une phrase**</td><td></td></tr><tr><td>**Public cible**</td><td></td></tr><tr><td>**Prérequis**</td><td></td></tr><tr><td>**Objectifs pédagogiques (3 max)**</td><td>1.  &lt;br&gt;2.  &lt;br&gt;3.</td></tr><tr><td>**Programme en 3-5 points**</td><td>1.  &lt;br&gt;2.  &lt;br&gt;3.  &lt;br&gt;4.  &lt;br&gt;5.</td></tr><tr><td>**Format et durée**</td><td></td></tr><tr><td>**Modalités** (présentiel, visio, hybride)</td><td></td></tr><tr><td>**Prix indicatif**</td><td></td></tr><tr><td>**Ce qui est inclus**</td><td></td></tr><tr><td>**3 arguments de vente**</td><td>1.  &lt;br&gt;2.  &lt;br&gt;3.</td></tr><tr><td>**2-3 preuves ou exemples**</td><td>1.  &lt;br&gt;2.  &lt;br&gt;3.</td></tr><tr><td>**Prochaine étape pour le client**</td><td></td></tr></tbody></table>
+<h3 id="validation-en-binôme">Validation en binôme</h3>
+<p>Demandez à un autre élève de relire votre fiche offre.</p>
+<table class="mdtable"><thead><tr><th>Critère</th><th>Retour du binôme</th><th>Action d&#x27;ajustement</th></tr></thead><tbody><tr><td>Le titre est clair</td><td></td><td></td></tr><tr><td>La promesse est compréhensible</td><td></td><td></td></tr><tr><td>Le public est identifiable</td><td></td><td></td></tr><tr><td>Le prix semble justifié</td><td></td><td></td></tr><tr><td>J&#x27;aurais envie d&#x27;en savoir plus</td><td></td><td></td></tr></tbody></table>
+<hr>
+<h2 id="c2-vendre-sa-formation-sans-être-vendeur">C2 — Vendre sa formation sans être vendeur</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Le premier client vient souvent de votre réseau existant, pas de la prospection froide.</blockquote>
+<h3 id="exercice-cartographie-de-votre-réseau-chaud">Exercice : Cartographie de votre réseau chaud</h3>
+<p>Listez 10 contacts potentiels.</p>
+<table class="mdtable"><thead><tr><th>#</th><th>Nom</th><th>Lien avec vous</th><th>Intérêt probable pour l&#x27;IA</th><th>Canal privilégié</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td><td></td></tr><tr><td>4.</td><td></td><td></td><td></td><td></td></tr><tr><td>5.</td><td></td><td></td><td></td><td></td></tr><tr><td>6.</td><td></td><td></td><td></td><td></td></tr><tr><td>7.</td><td></td><td></td><td></td><td></td></tr><tr><td>8.</td><td></td><td></td><td></td><td></td></tr><tr><td>9.</td><td></td><td></td><td></td><td></td></tr><tr><td>10.</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="exercice-choisir-les-5-contacts-les-plus-pertinents">Exercice : Choisir les 5 contacts les plus pertinents</h3>
+<p>Sélectionnez ceux qui correspondent le mieux à votre cible prioritaire.</p>
+<table class="mdtable"><thead><tr><th>#</th><th>Nom</th><th>Pourquoi lui maintenant ?</th><th>Objectif du message</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td></tr><tr><td>4.</td><td></td><td></td><td></td></tr><tr><td>5.</td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="modèle-de-message-dx27approche-personnalisé">Modèle de message d&#x27;approche personnalisé</h3>
+<blockquote>**Objet :** [Sujet concret lié à son métier]<br>Bonjour [Prénom],<br>Je sais que [situation concrète chez lui/elle]. Je prépare actuellement une formation pour aider [cible] à [résultat]. Est-ce que tu aurais 10 min cette semaine pour que je te présente l&#x27;idée et que tu me dises si ça répond à un besoin chez toi ?<br>[Prénom]</blockquote>
+<h3 id="vos-5-messages-dx27approche-personnalisés">Vos 5 messages d&#x27;approche personnalisés</h3>
+<p><strong>Message 1 — [Nom] :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<p><strong>Message 2 — [Nom] :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<p><strong>Message 3 — [Nom] :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<p><strong>Message 4 — [Nom] :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<p><strong>Message 5 — [Nom] :</strong></p>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<hr>
+<h2 id="c3-plan-dx27action-7-jours">C3 — Plan d&#x27;action 7 jours</h2>
+<h3 id="le-message-clé">Le message clé</h3>
+<blockquote>Sans date et sans action, l&#x27;offre reste dans un dossier.</blockquote>
+<h3 id="exercice-construire-votre-plan-dx27action">Exercice : Construire votre plan d&#x27;action</h3>
+<p>Pour chaque jour, définissez 1 action concrète et un indicateur de succès.</p>
+<table class="mdtable"><thead><tr><th>Jour</th><th>Action concrète</th><th>Durée prévue</th><th>Indicateur de succès</th></tr></thead><tbody><tr><td>J+1</td><td></td><td></td><td></td></tr><tr><td>J+2</td><td></td><td></td><td></td></tr><tr><td>J+3</td><td></td><td></td><td></td></tr><tr><td>J+4</td><td></td><td></td><td></td></tr><tr><td>J+5</td><td></td><td></td><td></td></tr><tr><td>J+6</td><td></td><td></td><td></td></tr><tr><td>J+7</td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="mes-3-indicateurs-de-suivi">Mes 3 indicateurs de suivi</h3>
+<table class="mdtable"><thead><tr><th>Indicateur</th><th>Cible à J+7</th><th>Comment je mesure ?</th></tr></thead><tbody><tr><td>1. Nombre de messages envoyés</td><td>5</td><td>Compteur manuel</td></tr><tr><td>2. Nombre de réponses reçues</td><td>2</td><td>Réponses sur email/LinkedIn/phone</td></tr><tr><td>3. Nombre de rendez-vous pris</td><td>1</td><td>Calendrier</td></tr></tbody></table>
+<h3 id="engagement-final">Engagement final</h3>
+<p><strong>Mon objectif à 7 jours :</strong></p>
+<blockquote>___________________________________________________________________</blockquote>
+<p><strong>La date à laquelle je m'engage à commencer :</strong></p>
+<blockquote>________________________________</blockquote>
+<p><strong>La personne à qui je rendrai compte (optionnel mais puissant) :</strong></p>
+<blockquote>___________________________________________________________________</blockquote>
+<hr>
+<h1 id="templates-et-checklists">Templates et checklists</h1>
+<h2 id="template-1-carte-dx27identité-ia">Template 1 : Carte d&#x27;identité IA</h2>
+<table class="mdtable"><thead><tr><th>Usage IA</th><th>Outil utilisé</th><th>Fréquence</th><th>Gain obtenu</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td><td></td></tr></tbody></table>
+<h2 id="template-2-fiche-quotexpertise-impactquot">Template 2 : Fiche &quot;expertise + impact&quot;</h2>
+<table class="mdtable"><thead><tr><th>Ma compétence IA</th><th>Mon contexte métier</th><th>Le problème que je résous</th><th>La transformation promise</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h2 id="template-3-matrice-cible">Template 3 : Matrice cible</h2>
+<table class="mdtable"><thead><tr><th>Segment</th><th>Accessibilité</th><th>Urgence</th><th>Budget</th><th>Total</th></tr></thead><tbody><tr><td></td><td>/5</td><td>/5</td><td>/5</td><td>/15</td></tr><tr><td></td><td>/5</td><td>/5</td><td>/5</td><td>/15</td></tr><tr><td></td><td>/5</td><td>/5</td><td>/5</td><td>/15</td></tr></tbody></table>
+<h2 id="template-4-protocole-de-validation">Template 4 : Protocole de validation</h2>
+<table class="mdtable"><thead><tr><th>#</th><th>Question</th><th>Ce que je vérifie</th></tr></thead><tbody><tr><td>1.</td><td></td><td></td></tr><tr><td>2.</td><td></td><td></td></tr><tr><td>3.</td><td></td><td></td></tr></tbody></table>
+<h2 id="template-5-plan-dx27action-7-jours">Template 5 : Plan d&#x27;action 7 jours</h2>
+<table class="mdtable"><thead><tr><th>Jour</th><th>Action</th><th>Durée</th><th>Indicateur</th></tr></thead><tbody><tr><td>J+1</td><td></td><td></td><td></td></tr><tr><td>J+2</td><td></td><td></td><td></td></tr><tr><td>J+3</td><td></td><td></td><td></td></tr><tr><td>J+4</td><td></td><td></td><td></td></tr><tr><td>J+5</td><td></td><td></td><td></td></tr><tr><td>J+6</td><td></td><td></td><td></td></tr><tr><td>J+7</td><td></td><td></td><td></td></tr></tbody></table>
+<h2 id="checklist-finale-avant-de-quitter-la-formation">Checklist finale : Avant de quitter la formation</h2>
+<ul>
+<li>[ ] Mon angle de formateur IA est écrit.</li>
+<li>[ ] Ma cible prioritaire est choisie et justifiée.</li>
+<li>[ ] Mon titre de formation est clair et orienté résultat.</li>
+<li>[ ] Ma fiche offre est complète et relue par un binôme.</li>
+<li>[ ] J'ai 5 contacts à contacter.</li>
+<li>[ ] J'ai 5 messages d'approche personnalisés.</li>
+<li>[ ] Mon plan d'action 7 jours est daté.</li>
+<li>[ ] J'ai fixé mes 3 indicateurs de suivi.</li>
+</ul>
+<h2 id="checklist-post-formation-les-7-jours-suivants">Checklist post-formation : Les 7 jours suivants</h2>
+<ul>
+<li>[ ] J+1 : J'envoie mes 2 premiers messages.</li>
+<li>[ ] J+2 : Je relance si pas de réponse.</li>
+<li>[ ] J+3 : J'envoie 2 nouveaux messages.</li>
+<li>[ ] J+4 : Je note les retours et ajuste ma fiche offre si besoin.</li>
+<li>[ ] J+5 : Je publie mon angle sur LinkedIn ou auprès de mon réseau.</li>
+<li>[ ] J+6 : Je demande 2 recommandations ou introductions.</li>
+<li>[ ] J+7 : Je fais le bilan et je programme mon premier rendez-vous.</li>
+</ul>
+<h2 id="fiche-récap-les-5-erreurs-à-éviter">Fiche récap : Les 5 erreurs à éviter</h2>
+<table class="mdtable"><thead><tr><th>Erreur</th><th>Pourquoi ça coince</th><th>Ce qu&#x27;il faut faire à la place</th></tr></thead><tbody><tr><td>Cibler &quot;tout le monde&quot;</td><td>On ne sait pas où chercher</td><td>Choisir une cible très précise</td></tr><tr><td>Promettre &quot;comprendre l&#x27;IA&quot;</td><td>Trop flou, pas vendeur</td><td>Promettre un résultat concret</td></tr><tr><td>Se positionner sans preuve</td><td>On ne croit pas le formateur</td><td>Raconter 1 résultat obtenu</td></tr><tr><td>Construire avant de valider</td><td>On risque de passer à côté du besoin</td><td>Poser 3 questions à 5 contacts</td></tr><tr><td>Attendre d&#x27;être prêt à 100%</td><td>L&#x27;offre ne sort jamais</td><td>Envoyer 5 messages en 7 jours</td></tr></tbody></table>
+<hr>
+<h2 id="notes-libres">Notes libres</h2>
+<blockquote>___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________ ___________________________________________________________________</blockquote>
+<hr>
+<p><strong>Félicitations ! Vous avez terminé le workbook F1.</strong></p>
+<p>Prochaine action concrète : envoyer votre premier message aujourd'hui ou demain au plus tard.</p>
+</div>
+</body>
+</html>
