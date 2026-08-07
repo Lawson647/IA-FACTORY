@@ -31,12 +31,23 @@ export default async function handler(req, res) {
     source: source || 'site'
   };
 
-  // Statut optionnel : envoyé seulement si la valeur correspond à une option existante dans Airtable
-  const statutValue = statut || business || '';
-  if (statutValue) {
-    // Normaliser les valeurs pour correspondre aux options Airtable
-    const normalized = statutValue.toString().trim();
-    fields.statut = normalized;
+  // Mapper les valeurs du formulaire vers les options exactes du single select Airtable
+  const statutValue = (statut || business || '').toString().trim();
+  const statutMapping = {
+    'independant': 'Indépendant / Freelance',
+    'pme': 'PME / TPE',
+    'formateur': 'Formateur / Coach',
+    'autre': 'Autre',
+    'Indépendant / Freelance': 'Indépendant / Freelance',
+    'PME / TPE': 'PME / TPE',
+    'Formateur / Coach': 'Formateur / Coach',
+    'Autre': 'Autre'
+  };
+
+  if (statutValue && statutMapping[statutValue]) {
+    fields.statut = statutMapping[statutValue];
+  } else if (statutValue) {
+    fields.statut = statutValue;
   }
 
   try {
@@ -53,9 +64,8 @@ export default async function handler(req, res) {
       const errorData = await response.json();
       console.error('Airtable error:', errorData);
 
-      // Si l'erreur vient du champ statut (option non autorisée), on réessaie sans le statut
       const errorMsg = errorData.error?.message || '';
-      if (statutValue && errorMsg.includes('select option')) {
+      if (fields.statut && errorMsg.includes('select option')) {
         delete fields.statut;
         const retryResponse = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`, {
           method: 'POST',
@@ -71,7 +81,7 @@ export default async function handler(req, res) {
           return res.status(200).json({
             success: true,
             id: retryData.id,
-            note: 'Inscription enregistrée sans le statut. Vérifiez les options du champ statut dans Airtable.'
+            note: 'Inscription enregistrée sans le statut.'
           });
         }
       }
