@@ -200,4 +200,25 @@
     <lastmod>2026-08-06</lastmod>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/faq.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/mentions-legales.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/politique-confidentialite.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/atelier-gratuit.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>
