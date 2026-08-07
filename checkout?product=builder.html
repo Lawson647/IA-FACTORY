@@ -1,1 +1,75 @@
-<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="_next/static/css/f10e2e67daf63f2e.css"/><link rel="preload" as="script" href="_next/static/chunks/webpack-8db40c0f0ce1f953.js"/><title>Paiement — IA Factory</title><meta name="description" content="Finalisez votre inscription à l'atelier ou votre abonnement IA Factory."/></head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden flex flex-col"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/15 blur-[120px]"></div><div class="absolute bottom-[10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/10 blur-[100px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center"><a class="flex items-center gap-2" href="index.html"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></a></div></nav><section class="flex-1 flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8"><div class="w-full max-w-md p-8 rounded-3xl border border-white/10 bg-gradient-to-br from-purple-900/20 via-[#0a0a0f] to-cyan-900/20 text-center"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-white/70 mb-6">Finaliser l'achat</div><h1 class="text-2xl sm:text-3xl font-bold mb-2">Abonnement Builder</h1><p class="text-3xl font-bold text-cyan-400 mb-4">19 €/mois</p><p class="text-white/60 mb-8">4 agents IA opérationnels + formations self-paced + 1 atelier live par mois.</p><div class="space-y-4"><div class="p-4 rounded-xl border border-yellow-500/30 bg-yellow-500/10"><p class="text-yellow-400 text-sm">⚠️ Le paiement Stripe n'est pas encore configuré pour ce produit.</p></div><a class="block w-full px-6 py-4 rounded-full border border-white/20 text-white font-semibold hover:bg-white/5 transition-all" href="mailto:guillaume@ia-factory.io?subject=Paiement IA Factory">Me prévenir quand c'est disponible</a></div><a class="mt-6 inline-block text-sm text-white/50 hover:text-white" href="pricing.html">← Retour aux offres</a></div></section></main></body></html>
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="_next/static/css/f10e2e67daf63f2e.css"/><link rel="preload" as="script" href="_next/static/chunks/webpack-8db40c0f0ce1f953.js"/><title>Paiement — IA Factory</title><meta name="description" content="Finalisez votre inscription à l'atelier ou votre abonnement IA Factory."/><style>
+  /* Menu mobile */
+  .mobile-menu-toggle {
+    display: block;
+    md:display: none;
+  }
+  @media (min-width: 768px) {
+    .mobile-menu-toggle {
+      display: none;
+    }
+  }
+  #mobile-menu-toggle {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .mobile-menu-button:hover {
+    background: rgba(255,255,255,0.1);
+  }
+  .mobile-menu-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  .mobile-nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: rgba(10,10,15,0.98);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 16px;
+    z-index: 50;
+  }
+  .mobile-nav a {
+    display: block;
+    padding: 12px 16px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+  .mobile-nav a:hover {
+    background: rgba(255,255,255,0.05);
+    color: white;
+  }
+  #mobile-menu-toggle:checked ~ .mobile-nav {
+    display: block;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu-button .icon-menu {
+    display: none;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu-button .icon-close {
+    display: block;
+  }
+  .mobile-menu-button .icon-close {
+    display: none;
+  }
+  .mobile-menu-button .icon-menu {
+    display: block;
+  }
+</style>
+</head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden flex flex-col"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/15 blur-[120px]"></div><div class="absolute bottom-[10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/10 blur-[100px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center"><a class="flex items-center gap-2" href="index.html"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></a></div></nav><section class="flex-1 flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8"><div class="w-full max-w-md p-8 rounded-3xl border border-white/10 bg-gradient-to-br from-purple-900/20 via-[#0a0a0f] to-cyan-900/20 text-center"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-white/70 mb-6">Finaliser l'achat</div><h1 class="text-2xl sm:text-3xl font-bold mb-2">Abonnement Builder</h1><p class="text-3xl font-bold text-cyan-400 mb-4">19 €/mois</p><p class="text-white/60 mb-8">4 agents IA opérationnels + formations self-paced + 1 atelier live par mois.</p><div class="space-y-4"><div class="p-4 rounded-xl border border-yellow-500/30 bg-yellow-500/10"><p class="text-yellow-400 text-sm">⚠️ Le paiement Stripe n'est pas encore configuré pour ce produit.</p></div><a class="block w-full px-6 py-4 rounded-full border border-white/20 text-white font-semibold hover:bg-white/5 transition-all" href="mailto:guillaume@ia-factory.io?subject=Paiement IA Factory">Me prévenir quand c'est disponible</a></div><a class="mt-6 inline-block text-sm text-white/50 hover:text-white" href="pricing.html">← Retour aux offres</a></div></section></main></body></html>

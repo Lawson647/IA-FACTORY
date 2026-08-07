@@ -64,6 +64,80 @@
   ]
 }
 </script>
+<style>
+  /* Menu mobile */
+  .mobile-menu-toggle {
+    display: block;
+    md:display: none;
+  }
+  @media (min-width: 768px) {
+    .mobile-menu-toggle {
+      display: none;
+    }
+  }
+  #mobile-menu-toggle {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .mobile-menu-button:hover {
+    background: rgba(255,255,255,0.1);
+  }
+  .mobile-menu-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  .mobile-nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: rgba(10,10,15,0.98);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 16px;
+    z-index: 50;
+  }
+  .mobile-nav a {
+    display: block;
+    padding: 12px 16px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+  .mobile-nav a:hover {
+    background: rgba(255,255,255,0.05);
+    color: white;
+  }
+  #mobile-menu-toggle:checked ~ .mobile-nav {
+    display: block;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu-button .icon-menu {
+    display: none;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu-button .icon-close {
+    display: block;
+  }
+  .mobile-menu-button .icon-close {
+    display: none;
+  }
+  .mobile-menu-button .icon-menu {
+    display: block;
+  }
+</style>
 </head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/15 blur-[120px]"></div><div class="absolute bottom-[10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/10 blur-[100px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"><a class="flex items-center gap-2" href="index.html"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></a><div class="hidden md:flex items-center gap-8 text-sm text-white/70"><a class="hover:text-white transition-colors" href="index.html">Accueil</a><a class="hover:text-white transition-colors" href="agents.html">Agents</a><a class="hover:text-white transition-colors" href="formations.html">Formations</a><a class="hover:text-white transition-colors" href="pricing.html">Offres</a><a class="hover:text-white transition-colors" href="videos.html">Vidéos</a><a class="hover:text-white transition-colors" href="communaute.html">Communauté</a></div><div class="flex items-center gap-3"><a class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white/70 hover:text-white transition-colors" href="dashboard.html">Mon espace</a><a class="px-4 py-2 text-sm font-medium rounded-full bg-white text-[#0a0a0f] hover:bg-white/90 transition-all" href="inscription.html">Commencer gratuitement</a></div></div></nav><section class="flex-1 pt-24 pb-20 sm:pt-32 sm:pb-28 px-4 sm:px-6 lg:px-8"><div class="max-w-3xl mx-auto"><div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-sm text-white/80 mb-8">Aide</div><h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-6">Questions<span class="bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent"> fréquentes.</span></h1><p class="text-lg sm:text-xl text-white/60 max-w-2xl mb-16">Tout ce qu&apos;il faut savoir sur IA Factory, les agents IA et les formations.</p>
 
 <div class="space-y-4">
