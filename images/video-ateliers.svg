@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" class="w-full h-full">
+  <rect width="400" height="225" fill="#0f0f16"/>
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="360" height="185" rx="16" fill="url(#g2)" opacity="0.15"/>
+  <circle cx="200" cy="112" r="45" fill="url(#g2)" opacity="0.3"/>
+  <polygon points="185,95 185,130 220,112" fill="#ffffff"/>
+  <text x="200" y="190" text-anchor="middle" fill="#ffffff" font-size="14" font-family="sans-serif">Rejoignez Les Ateliers IA</text>
+  <text x="200" y="50" text-anchor="middle" fill="#ffffff" font-size="12" opacity="0.7" font-family="sans-serif">70 sec</text>
+</svg>
