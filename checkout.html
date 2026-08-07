@@ -94,27 +94,43 @@
     }
   }
 </style>
-</head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden flex flex-col"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/15 blur-[120px]"></div><div class="absolute bottom-[10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/10 blur-[100px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center"><a class="flex items-center gap-2" href="index.html"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></a></div></nav><section class="flex-1 flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8"><div class="w-full max-w-md p-8 rounded-3xl border border-white/10 bg-gradient-to-br from-purple-900/20 via-[#0a0a0f] to-cyan-900/20 text-center"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-white/70 mb-6">Finaliser l'achat</div><h1 class="text-2xl sm:text-3xl font-bold mb-2">Abonnement Builder</h1><p class="text-3xl font-bold text-cyan-400 mb-4">19 €/mois</p><p class="text-white/60 mb-8">4 agents IA opérationnels + formations self-paced + 1 atelier live par mois.</p><div class="space-y-4"><div class="p-4 rounded-xl border border-yellow-500/30 bg-yellow-500/10"><p class="text-yellow-400 text-sm">⚠️ Le paiement Stripe n'est pas encore configuré pour ce produit.</p></div><a class="block w-full px-6 py-4 rounded-full border border-white/20 text-white font-semibold hover:bg-white/5 transition-all" href="mailto:guillaume@ia-factory.io?subject=Paiement IA Factory">Me prévenir quand c'est disponible</a></div><a class="mt-6 inline-block text-sm text-white/50 hover:text-white" href="pricing.html">← Retour aux offres</a></div></section></main>
+</head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden flex flex-col"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/15 blur-[120px]"></div><div class="absolute bottom-[10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/10 blur-[100px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center"><a class="flex items-center gap-2" href="index.html"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></a></div></nav><section class="flex-1 flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8"><div class="w-full max-w-md p-8 rounded-3xl border border-white/10 bg-gradient-to-br from-purple-900/20 via-[#0a0a0f] to-cyan-900/20 text-center"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-white/70 mb-6">Finaliser l'achat</div><h1 class="text-2xl sm:text-3xl font-bold mb-2">Abonnement Builder</h1><p class="text-3xl font-bold text-cyan-400 mb-4">19 €<span class="text-lg text-white/50">/mois</span></p><p class="text-white/60 mb-8">Tous les agents standards, formations self-paced et 1 atelier live par mois.</p><div class="space-y-4"><div class="p-4 rounded-xl border border-yellow-500/30 bg-yellow-500/10"><p class="text-yellow-400 text-sm">⚠️ Le paiement en ligne sera bientôt disponible. Envoyez-nous un email pour finaliser votre abonnement.</p></div><a class="block w-full px-6 py-4 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold hover:opacity-90 transition-all" href="mailto:guillaume@ia-factory.io?subject=Paiement%20IA%20Factory%20-%20Abonnement">Recevoir les instructions de paiement</a></div><a class="mt-6 inline-block text-sm text-white/50 hover:text-white" href="pricing.html">← Retour aux offres</a></div></section></main>
 <script>
 (function() {
   const params = new URLSearchParams(window.location.search);
   const product = params.get('product') || 'builder';
   document.body.setAttribute('data-product', product);
+  
+  const config = {
+    builder: {
+      title: 'Builder',
+      price: '19 €',
+      period: '/mois',
+      description: 'Tous les agents standards, formations self-paced et 1 atelier live par mois.'
+    },
+    pro: {
+      title: 'Pro',
+      price: '49 €',
+      period: '/mois',
+      description: 'Tout Builder + ateliers live, formations avancées, support prioritaire et cercle mensuel.'
+    }
+  };
+  
+  const selected = config[product] || config.builder;
+  
   const titleEl = document.querySelector('h1');
   if (titleEl) {
-    if (product === 'pro') {
-      titleEl.innerHTML = 'Offre <span class="bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">Pro</span>';
-    } else {
-      titleEl.innerHTML = 'Offre <span class="bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">Builder</span>';
-    }
+    titleEl.innerHTML = `Offre <span class="bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">${selected.title}</span>`;
   }
+  
+  const priceEl = document.querySelector('p.text-3xl.font-bold');
+  if (priceEl) {
+    priceEl.innerHTML = `${selected.price}<span class="text-lg text-white/50">${selected.period}</span>`;
+  }
+  
   const descEl = document.querySelector('p.text-white/60');
   if (descEl) {
-    if (product === 'pro') {
-      descEl.textContent = 'Finalisez votre inscription à l&apos;offre Pro et déployez des agents IA clé en main.';
-    } else {
-      descEl.textContent = 'Finalisez votre inscription à l&apos;offre Builder et apprenez à construire vos agents IA.';
-    }
+    descEl.textContent = selected.description;
   }
 })();
 </script>
