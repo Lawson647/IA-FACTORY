@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.2"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <circle cx="600" cy="315" r="300" fill="url(#bgGrad)"/>
+  
+  <!-- Workflow steps -->
+  <g transform="translate(150, 200)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="180" height="120" rx="16" fill="#1a1a24" stroke="#333" stroke-width="2"/>
+    <text x="90" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Visiteur</text>
+    <text x="90" y="70" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Site internet</text>
+    <text x="90" y="90" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Question</text>
+    
+    <!-- Arrow -->
+    <path d="M190 60 L260 60" stroke="url(#lineGrad)" stroke-width="3" fill="none"/>
+    <polygon points="255,55 265,60 255,65" fill="#06B6D4"/>
+    
+    <!-- Step 2 -->
+    <rect x="270" y="0" width="180" height="120" rx="16" fill="#1a1a24" stroke="#7C3AED" stroke-width="2"/>
+    <text x="360" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Agent IA</text>
+    <text x="360" y="70" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Analyse +</text>
+    <text x="360" y="90" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Réponse instantanée</text>
+    
+    <!-- Arrow -->
+    <path d="M460 60 L530 60" stroke="url(#lineGrad)" stroke-width="3" fill="none"/>
+    <polygon points="525,55 535,60 525,65" fill="#06B6D4"/>
+    
+    <!-- Step 3 -->
+    <rect x="540" y="0" width="180" height="120" rx="16" fill="#1a1a24" stroke="#06B6D4" stroke-width="2"/>
+    <text x="630" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Lead qualifié</text>
+    <text x="630" y="70" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">CRM / Email</text>
+    <text x="630" y="90" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Notification</text>
+    
+    <!-- Arrow -->
+    <path d="M730 60 L800 60" stroke="url(#lineGrad)" stroke-width="3" fill="none"/>
+    <polygon points="795,55 805,60 795,65" fill="#06B6D4"/>
+    
+    <!-- Step 4 -->
+    <rect x="810" y="0" width="180" height="120" rx="16" fill="#1a1a24" stroke="#333" stroke-width="2"/>
+    <text x="900" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Votre équipe</text>
+    <text x="900" y="70" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Intervient au</text>
+    <text x="900" y="90" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">bon moment</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="600" y="480" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Agents IA opérationnels en 48h</text>
+  <text x="600" y="520" font-family="Arial" font-size="18" fill="#aaa" text-anchor="middle">Sans formation. Sans recrutement. Sans prise de tête.</text>
+</svg>

@@ -11,90 +11,56 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { email, prenom, nom, source, statut, business } = req.body;
+  const token = process.env.AIRTABLE_TOKEN;
+  const baseId = 'appZFtopEQ92W8zLl';
+  const tableId = 'tblpyIJjmTX2Z7Ble';
+
+  const { email, prenom, source, statut, notes } = req.body;
 
   if (!email) {
     return res.status(400).json({ error: 'Email requis' });
   }
 
-  const AIRTABLE_BASE_ID = 'appZFtopEQ92W8zLl';
-  const AIRTABLE_TABLE_ID = 'tblpyIJjmTX2Z7Ble';
-  const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN;
-
-  if (!AIRTABLE_TOKEN) {
-    return res.status(500).json({ error: 'Configuration Airtable manquante' });
-  }
-
   const fields = {
     email: email,
-    nom: prenom || nom || 'Non renseigné',
-    source: source || 'site'
+    nom: prenom || '',
+    source: source || 'site',
   };
 
-  // Mapper les valeurs du formulaire vers les options exactes du single select Airtable
-  const statutValue = (statut || business || '').toString().trim();
-  const statutMapping = {
-    'independant': 'Indépendant / Freelance',
-    'pme': 'PME / TPE',
-    'formateur': 'Formateur / Coach',
-    'autre': 'Autre',
-    'Indépendant / Freelance': 'Indépendant / Freelance',
-    'PME / TPE': 'PME / TPE',
-    'Formateur / Coach': 'Formateur / Coach',
-    'Autre': 'Autre'
-  };
+  if (statut) {
+    fields.statut = statut;
+  }
 
-  if (statutValue && statutMapping[statutValue]) {
-    fields.statut = statutMapping[statutValue];
-  } else if (statutValue) {
-    fields.statut = statutValue;
+  if (notes) {
+    fields.notes = notes;
   }
 
   try {
-    const response = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`, {
+    const response = await fetch(`https://api.airtable.com/v0/${baseId}/${tableId}`, {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${AIRTABLE_TOKEN}`,
+        'Authorization': `Bearer ${token}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ fields })
     });
 
     if (!response.ok) {
-      const errorData = await response.json();
-      console.error('Airtable error:', errorData);
-
-      const errorMsg = errorData.error?.message || '';
-      if (fields.statut && errorMsg.includes('select option')) {
-        delete fields.statut;
-        const retryResponse = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`, {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${AIRTABLE_TOKEN}`,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ fields })
-        });
-
-        if (retryResponse.ok) {
-          const retryData = await retryResponse.json();
-          return res.status(200).json({
-            success: true,
-            id: retryData.id,
-            note: 'Inscription enregistrée sans le statut.'
-          });
-        }
-      }
-
-      return res.status(response.status).json({
-        error: errorData.error?.message || 'Erreur Airtable'
+      const errorText = await response.text();
+      console.error('Airtable error:', errorText);
+      return res.status(response.status).json({ 
+        error: 'Erreur Airtable', 
+        details: errorText 
       });
     }
 
     const data = await response.json();
-    return res.status(200).json({ success: true, id: data.id });
+    return res.status(200).json({ 
+      success: true, 
+      id: data.id 
+    });
   } catch (error) {
     console.error('Server error:', error);
-    return res.status(500).json({ error: 'Erreur serveur' });
+    return res.status(500).json({ error: error.message });
   }
 }
