@@ -1,0 +1,158 @@
+# 🎨 CONTENU POUR SKOOL — Les Ateliers IA
+
+## 📋 Utilisation
+1. Uploade chaque bannière `banner-*.png` dans la section correspondante de Skool
+2. Copie-colle la description dans les paramètres de la section
+3. Utilise les idées de posts pour animer la communauté
+
+---
+
+## 🚀 Découverte de l'IA
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-decouverte-ia.png`
+
+**Description à coller dans Skool :**
+Tout ce qu'il faut savoir pour démarrer avec l'IA : concepts clés, outils essentiels, prompts simples et premiers pas concrets.
+
+**Idées de posts :**
+- Les 5 outils IA à connaître en 2026
+- Prompting 101 : comment bien parler à une IA
+- Quelle IA choisir selon votre besoin ?
+- L'histoire de l'IA en 5 dates clés
+
+---
+
+## 🤖 IA Pratique
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-ia-pratique.png`
+
+**Description à coller dans Skool :**
+Des cas d'usage réels, des projets guidés et des retours d'expérience pour apprendre l'IA en faisant.
+
+**Idées de posts :**
+- Projet guidé : créer un assistant documentaire
+- Comment j'ai automatisé mon reporting hebdomadaire
+- Cas d'usage : qualification de leads avec l'IA
+- Before/after : 3h de travail réduites à 20 min
+
+---
+
+## ⚡ Bootcamps IA
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-bootcamps.png`
+
+**Description à coller dans Skool :**
+Ateliers en direct pour construire un projet IA de A à Z. Récapitulatifs, replays et templates à télécharger.
+
+**Idées de posts :**
+- Replay : Bootcamp Agent Support Client
+- Prochain bootcamp : Créer son premier agent n8n
+- Templates du bootcamp Agent Réseaux Sociaux
+- Inscriptions ouvertes : Bootcamp du mois
+
+---
+
+## 🧠 Maîtriser les outils IA
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-maitriser-outils.png`
+
+**Description à coller dans Skool :**
+Approfondissez les outils IA du moment : ChatGPT, Claude, Gemini, Perplexity, Midjourney, HeyGen et bien d'autres.
+
+**Idées de posts :**
+- Guide complet ChatGPT : les fonctions cachées
+- Claude vs ChatGPT : lequel choisir ?
+- 10 astuces Perplexity pour la veille
+- Comment créer des images pro avec Midjourney
+
+---
+
+## 🤖 Agents IA & Automatisation
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-agents-automatisation.png`
+
+**Description à coller dans Skool :**
+La section dédiée aux agents IA et aux automatisations. n8n, Make, Zapier, agents autonomes et workflows prêts à l'emploi.
+
+**Idées de posts :**
+- Workflow n8n : qualification automatique de leads
+- Comment créer un agent IA avec Hermes
+- Template : agent support client en 30 min
+- Make vs n8n : quel automateur choisir ?
+
+---
+
+## 💰 Business IA
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-business-ia.png`
+
+**Description à coller dans Skool :**
+Stratégies business, offres de service, pricing et études de cas pour gagner de l'argent ou réduire vos coûts avec l'IA.
+
+**Idées de posts :**
+- Comment facturer un agent IA à vos clients
+- 5 services IA que vous pouvez lancer ce mois
+- Étude de cas : 10K€/mois avec des agents IA
+- Pricing de vos formations IA : guide pratique
+
+---
+
+## 🎨 Vibe Coding & Création
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-vibe-coding.png`
+
+**Description à coller dans Skool :**
+Création de contenu, sites web, applications, vidéos et visuels assistés par IA. Partagez vos créations et découvrez les outils créatifs.
+
+**Idées de posts :**
+- Créer un site web complet avec l'IA en 1h
+- Vibe coding : mon premier MVP avec Cursor
+- Créer des vidéos avec HeyGen : tutoriel
+- Générer des visuels de marque avec l'IA
+
+---
+
+## 🛠️ Ressources & Templates
+
+**Fichier bannière :** `/workspace/ia-factory/skool-assets/banner-ressources-templates.png`
+
+**Description à coller dans Skool :**
+Bibliothèque de ressources partagées par la communauté : prompts, templates, SOPs, checklists et outils recommandés.
+
+**Idées de posts :**
+- Prompts de la semaine à télécharger
+- Template : brief création d'agent IA
+- Checklist : lancer une formation IA en 90 jours
+- Liste des outils recommandés par la communauté
+
+---
+
+## 🚀 POST DE PRÉSENTATION COMMUNAUTÉ
+
+**À publier en post épinglé :**
+
+Bienvenue dans Les Ateliers IA 🎉
+
+Cette communauté est le lieu d'échange des builders IA francophones : indépendants, PME, formateurs et créateurs de contenu.
+
+🧭 Comment s'y retrouver ?
+- 🚀 Découverte de l'IA : les bases
+- 🤖 IA Pratique : projets concrets
+- ⚡ Bootcamps IA : sessions live
+- 🧠 Maîtriser les outils IA : guides
+- 🤖 Agents IA & Automatisation : n8n, Make, agents autonomes
+- 💰 Business IA : monétiser et créer des services
+- 🎨 Vibe Coding & Création : sites, apps, vidéos, visuels
+- 🛠️ Ressources & Templates : prompts et templates partagés
+
+🔗 Le site de IA Factory : https://ia-factory-seven.vercel.app/
+
+🤝 Règles simples :
+- Partagez vos expérimentations
+- Aidez les autres membres
+- Pas de spam, pas de promotion sauvage
+
+On avance ensemble !
+
+
+---
