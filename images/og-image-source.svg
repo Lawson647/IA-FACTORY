@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Cercles décoratifs -->
+  <circle cx="900" cy="150" r="250" fill="#7c3aed" opacity="0.15"/>
+  <circle cx="300" cy="500" r="200" fill="#06b6d4" opacity="0.1"/>
+  <!-- Logo -->
+  <rect x="120" y="120" width="90" height="90" rx="20" fill="url(#text)"/>
+  <text x="165" y="180" text-anchor="middle" fill="#0a0a0f" font-size="42" font-weight="bold" font-family="Arial, sans-serif">IA</text>
+  <text x="235" y="178" fill="#ffffff" font-size="48" font-weight="bold" font-family="Arial, sans-serif">Factory</text>
+  <!-- Titre principal -->
+  <text x="120" y="320" fill="#ffffff" font-size="72" font-weight="bold" font-family="Arial, sans-serif">Apprends. Construis.</text>
+  <text x="120" y="410" fill="url(#text)" font-size="72" font-weight="bold" font-family="Arial, sans-serif">Automatise avec l'IA.</text>
+  <!-- Sous-titre -->
+  <text x="120" y="500" fill="#ffffff" font-size="32" opacity="0.8" font-family="Arial, sans-serif">Agents IA · Formations · Communauté pour indépendants et PME</text>
+  <!-- URL -->
+  <text x="120" y="580" fill="#22d3ee" font-size="28" font-family="Arial, sans-serif">ia-factory-seven.vercel.app</text>
+</svg>
