@@ -1,14 +1,4 @@
 <!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../_next/static/css/f10e2e67daf63f2e.css"/><link rel="preload" as="script" href="../_next/static/chunks/webpack-8db40c0f0ce1f953.js"/><title>IA Factory — Apprends, construis et automatise avec l’IA</title><meta name="description" content="IA Factory est la communauté et la plateforme pour apprendre l’IA, construire des agents et automatiser ton business."/><style>
-  /* Menu mobile */
-  .mobile-menu-toggle {
-    display: block;
-    md:display: none;
-  }
-  @media (min-width: 768px) {
-    .mobile-menu-toggle {
-      display: none;
-    }
-  }
   #mobile-menu-toggle {
     display: none;
   }
@@ -24,6 +14,8 @@
     color: white;
     cursor: pointer;
     transition: all 0.2s;
+    margin-left: 8px;
+    flex-shrink: 0;
   }
   .mobile-menu-button:hover {
     background: rgba(255,255,255,0.1);
@@ -31,6 +23,15 @@
   .mobile-menu-button svg {
     width: 24px;
     height: 24px;
+  }
+  .mobile-menu-button .icon-close {
+    display: none;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu-button .icon-menu {
+    display: none;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu-button .icon-close {
+    display: block;
   }
   .mobile-nav {
     display: none;
@@ -40,6 +41,7 @@
     right: 0;
     background: rgba(10,10,15,0.98);
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255,255,255,0.1);
     padding: 16px;
     z-index: 50;
@@ -56,20 +58,25 @@
     background: rgba(255,255,255,0.05);
     color: white;
   }
+  .mobile-nav .mobile-cta {
+    background: white;
+    color: #0a0a0f;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .mobile-nav .mobile-cta:hover {
+    background: rgba(255,255,255,0.9);
+    color: #0a0a0f;
+  }
   #mobile-menu-toggle:checked ~ .mobile-nav {
     display: block;
   }
-  #mobile-menu-toggle:checked + .mobile-menu-button .icon-menu {
-    display: none;
-  }
-  #mobile-menu-toggle:checked + .mobile-menu-button .icon-close {
-    display: block;
-  }
-  .mobile-menu-button .icon-close {
-    display: none;
-  }
-  .mobile-menu-button .icon-menu {
-    display: block;
+  @media (min-width: 768px) {
+    .mobile-menu-button,
+    .mobile-nav {
+      display: none !important;
+    }
   }
 </style>
 </head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/10 blur-[120px]"></div><div class="absolute bottom-[10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/10 blur-[100px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"><a class="flex items-center gap-2" href="../index.html"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></a><div class="hidden md:flex items-center gap-8 text-sm text-white/70"><a class="hover:text-white transition-colors" href="../index.html">Accueil</a><div class="relative"><button class="flex items-center gap-1 hover:text-white transition-colors">Agents<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-4 h-4"><path d="m6 9 6 6 6-6"></path></svg></button></div><a class="hover:text-white transition-colors" href="../formations.html">Formations</a><a class="hover:text-white transition-colors" href="../pricing.html">Offres</a><a class="hover:text-white transition-colors" href="../videos.html">Vidéos</a><a class="hover:text-white transition-colors" href="../communaute.html">Communauté</a></div><div class="flex items-center gap-3"><a class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white/70 hover:text-white transition-colors" aria-label="Mon espace membre" href="../dashboard.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard w-4 h-4"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>Mon espace</a><a class="hidden sm:inline-flex px-4 py-2 text-sm font-medium rounded-full bg-white text-[#0a0a0f] hover:bg-white/90 transition-all" href="../inscription.html">Commencer gratuitement</a><button class="md:hidden p-2 text-white/70 hover:text-white" aria-label="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-6 h-6"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav><section class="pt-24 pb-20 sm:pt-32 sm:pb-28 px-4 sm:px-6 lg:px-8"><div class="max-w-3xl mx-auto"><a class="text-sm text-white/50 hover:text-white mb-8 inline-flex items-center gap-1 transition-colors" href="../blog.html">← Retour au blog</a><div class="flex items-center gap-4 mb-6"><span class="inline-flex px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-semibold text-cyan-400 uppercase tracking-wider">manifesto</span><span class="text-white/40 text-sm">4 min<!-- --> de lecture</span></div><h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 leading-tight">Pourquoi j'ai créé IA Factory</h1><article class="prose prose-invert prose-lg max-w-none text-white/80"><h2>Le constat</h2>
