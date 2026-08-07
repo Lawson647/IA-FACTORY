@@ -177,7 +177,7 @@
       <div class="relative">
         <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8">
           <h2 class="text-2xl font-bold mb-6">Réservez votre place</h2>
-          <form class="space-y-4" action="inscription.html?source=atelier-gratuit" method="get">
+          <form class="space-y-4" id="inscription" action="inscription.html?source=atelier-gratuit" method="get">
             <div>
               <label class="block text-sm text-white/70 mb-2" for="email">Email</label>
               <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-purple-500" placeholder="votre@email.com" />
@@ -238,6 +238,102 @@
   </div>
 </section>
 
+
+
+<!-- Section visuel + ce que vous allez construire -->
+<section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="order-2 lg:order-1">
+        <img src="images/atelier-hero.svg" alt="Atelier IA Factory en direct" class="w-full h-auto rounded-2xl border border-white/10 bg-white/[0.03] p-4" />
+      </div>
+      
+      <div class="order-1 lg:order-2">
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-sm text-cyan-400 mb-6">En direct sur Zoom</div>
+        
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6">Ce que vous allez
+          <span class="bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">construire</span> pendant l&apos;atelier
+        </h2>
+        
+        <ul class="space-y-4 text-white/70">
+          <li class="flex items-start gap-3">
+            <span class="text-cyan-400 text-xl">1️⃣</span>
+            <span><strong class="text-white">Identifier une tâche</strong> à automatiser dans votre business (support, contenu, qualification...)</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-cyan-400 text-xl">2️⃣</span>
+            <span><strong class="text-white">Construire le prompt</strong> qui pilote l&apos;agent étape par étape</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-cyan-400 text-xl">3️⃣</span>
+            <span><strong class="text-white">Connecter l&apos;outil</strong> (email, formulaire, base de données) sans coder</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-cyan-400 text-xl">4️⃣</span>
+            <span><strong class="text-white">Tester et itérer</strong> avec la méthode IA Factory</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section : Pour qui ? -->
+<section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Cet atelier est fait pour vous si...</h2>
+    <p class="text-lg text-white/60 mb-12 max-w-2xl mx-auto">Vous entendez parler d&apos;agents IA mais vous ne savez pas par où commencer concrètement.</p>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-left">
+        <div class="text-3xl mb-3">👤</div>
+        <h3 class="font-semibold mb-2">Indépendants</h3>
+        <p class="text-sm text-white/60">Vous voulez automatiser les tâches répétitives pour vous concentrer sur votre cœur de métier.</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-left">
+        <div class="text-3xl mb-3">🏢</div>
+        <h3 class="font-semibold mb-2">PME / TPE</h3>
+        <p class="text-sm text-white/60">Vous cherchez à déployer un agent support, prospection ou contenu sans recruter.</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-left">
+        <div class="text-3xl mb-3">🎓</div>
+        <h3 class="font-semibold mb-2">Formateurs</h3>
+        <p class="text-sm text-white/60">Vous voulez intégrer l&apos;IA et les agents dans vos formations ou créer de nouvelles offres.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section : Témoignages -->
+<section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12">Ils ont créé leur premier agent IA</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+        <p class="text-white/80 italic mb-4">"En 45 minutes j&apos;ai compris comment créer un agent qui répond aux questions récurrentes de mes clients."</p>
+        <p class="text-sm text-cyan-400 font-medium">— Consultant en stratégie</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+        <p class="text-white/80 italic mb-4">"L&apos;atelier m&apos;a donné la méthode. Je suis reparti avec un agent fonctionnel, pas juste de la théorie."</p>
+        <p class="text-sm text-cyan-400 font-medium">— Coach indépendant</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+        <p class="text-white/80 italic mb-4">"Je pensais qu&apos;il fallait savoir coder. En fait, avec les bons outils, c&apos;est accessible à tous."</p>
+        <p class="text-sm text-cyan-400 font-medium">— Créatrice de formations</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section : CTA final -->
+<section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-4xl mx-auto rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-cyan-900/20 via-[#0a0a0f] to-purple-900/20 p-8 sm:p-12 text-center">
+    <h2 class="text-2xl sm:text-3xl font-bold mb-4">Prêt à créer votre premier agent IA ?</h2>
+    <p class="text-white/60 mb-8 max-w-xl mx-auto">Inscrivez-vous gratuitement à l&apos;atelier et repartez avec un agent opérationnel.</p>
+    <a href="#inscription" class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-[#0a0a0f] font-semibold text-lg hover:bg-white/90 transition-all">S&apos;inscrire maintenant</a>
+  </div>
+</section>
 <footer class="w-full border-t border-white/10 bg-[#0a0a0f] py-16 px-4 sm:px-6 lg:px-8"><div class="max-w-6xl mx-auto"><div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12"><div class="md:col-span-2"><div class="flex items-center gap-2 mb-4"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></div><p class="text-white/60 text-sm max-w-sm leading-relaxed mb-6">IA Factory est le studio d&apos;agents et de formations des <a class="text-cyan-400 hover:underline" href="communaute.html">Les Ateliers IA</a>, une communauté de builders pour indépendants et PME.</p><p class="text-sm text-white/40">2026 IA Factory. Tous droits réservés.</p></div><div><h3 class="font-semibold mb-4">Produit</h3><ul class="space-y-3 text-sm text-white/60"><li><a class="hover:text-white transition-colors" href="agents.html">Agents</a></li><li><a class="hover:text-white transition-colors" href="formations.html">Formations</a></li><li><a class="hover:text-white transition-colors" href="pricing.html">Offres</a></li><li><a class="hover:text-white transition-colors" href="blog.html">Blog</a></li><li><a class="hover:text-white transition-colors" href="videos.html">Vidéos</a></li><li><a class="hover:text-white transition-colors" href="communaute.html">Communauté</a><a class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-sm text-cyan-400 hover:bg-cyan-500/20 transition-colors" href="https://www.skool.com/les-ateliers-ia-8991/classroom" target="_blank" rel="noopener noreferrer">Skool 🚀</a></li></ul></div><div><h3 class="font-semibold mb-4">Légal</h3><ul class="space-y-3 text-sm text-white/60"><li><a class="hover:text-white transition-colors" href="mentions-legales.html">Mentions légales</a></li><li><a class="hover:text-white transition-colors" href="politique-confidentialite.html">Politique de confidentialité</a></li><li><a class="hover:text-white transition-colors" href="faq.html">FAQ</a></li></ul></div><div><h3 class="font-semibold mb-4">Ressources</h3><ul class="space-y-3 text-sm text-white/60"><li><a class="hover:text-white transition-colors" href="ressources.html">Atelier gratuit</a></li><li><a class="hover:text-white transition-colors" href="blog/10-prompts.html">10 prompts</a></li><li><a class="hover:text-white transition-colors" href="https://www.skool.com/les-ateliers-ia-8991/classroom" target="_blank" rel="noopener noreferrer">Skool</a></li></ul></div></div></div></footer></main>
 <script>
 (function() {
