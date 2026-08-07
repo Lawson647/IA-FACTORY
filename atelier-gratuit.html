@@ -250,7 +250,8 @@
     const payload = {
       email: formData.email,
       prenom: formData.prenom || formData.nom || '',
-      source: formData.source || getSource()
+      source: formData.source || getSource(),
+      statut: formData.business || formData.statut || ''
     };
 
     const response = await fetch('/api/submit-airtable', {
@@ -279,7 +280,8 @@
       email: formData.get('email') || '',
       prenom: formData.get('prenom') || '',
       nom: formData.get('nom') || '',
-      source: formData.get('source') || ''
+      source: formData.get('source') || '',
+      business: formData.get('business') || formData.get('statut') || ''
     };
 
     if (!data.email) {

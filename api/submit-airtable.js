@@ -1,5 +1,4 @@
 export default async function handler(req, res) {
-  // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -12,7 +11,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { email, prenom, nom, source, business } = req.body;
+  const { email, prenom, nom, source, statut, business } = req.body;
 
   if (!email) {
     return res.status(400).json({ error: 'Email requis' });
@@ -32,9 +31,13 @@ export default async function handler(req, res) {
     source: source || 'site'
   };
 
-  // Si un statut/activité est fourni et correspond à une option existante,
-  // on pourrait l'ajouter ici. Pour l'instant on ne l'envoie pas pour éviter
-  // les erreurs de permission sur le single select.
+  // Statut optionnel : envoyé seulement si la valeur correspond à une option existante dans Airtable
+  const statutValue = statut || business || '';
+  if (statutValue) {
+    // Normaliser les valeurs pour correspondre aux options Airtable
+    const normalized = statutValue.toString().trim();
+    fields.statut = normalized;
+  }
 
   try {
     const response = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`, {
@@ -49,6 +52,30 @@ export default async function handler(req, res) {
     if (!response.ok) {
       const errorData = await response.json();
       console.error('Airtable error:', errorData);
+
+      // Si l'erreur vient du champ statut (option non autorisée), on réessaie sans le statut
+      const errorMsg = errorData.error?.message || '';
+      if (statutValue && errorMsg.includes('select option')) {
+        delete fields.statut;
+        const retryResponse = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${AIRTABLE_TOKEN}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ fields })
+        });
+
+        if (retryResponse.ok) {
+          const retryData = await retryResponse.json();
+          return res.status(200).json({
+            success: true,
+            id: retryData.id,
+            note: 'Inscription enregistrée sans le statut. Vérifiez les options du champ statut dans Airtable.'
+          });
+        }
+      }
+
       return res.status(response.status).json({
         error: errorData.error?.message || 'Erreur Airtable'
       });
