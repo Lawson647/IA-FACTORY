@@ -172,4 +172,86 @@
       </div>
     </div>
   </div>
-</section>>
+</section>
+
+<script>
+(function() {
+  function getSource() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('source') || window.location.pathname.replace(/\//g, '').replace(/\.html$/, '') || 'site';
+  }
+
+  async function submitToAirtable(formData) {
+    const payload = {
+      email: formData.email,
+      prenom: formData.prenom || formData.nom || '',
+      source: formData.source || getSource(),
+      statut: formData.business || formData.statut || ''
+    };
+
+    const response = await fetch('/api/submit-airtable', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await response.json();
+    return { success: response.ok, error: result.error };
+  }
+
+  document.addEventListener('submit', async function(e) {
+    const form = e.target;
+    if (!form.matches('form')) return;
+
+    const action = form.getAttribute('action') || '';
+    const hasEmail = form.querySelector('input[type="email"], input[name="email"]');
+
+    if (!hasEmail || action.includes('http') || action.includes('mailto:')) return;
+
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const data = {
+      email: formData.get('email') || '',
+      prenom: formData.get('prenom') || '',
+      nom: formData.get('nom') || '',
+      source: formData.get('source') || '',
+      business: formData.get('business') || formData.get('statut') || ''
+    };
+
+    if (!data.email) {
+      alert('Veuillez renseigner votre email.');
+      return;
+    }
+
+    const btn = form.querySelector('button[type="submit"]');
+    const originalText = btn ? btn.textContent : '';
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = 'Envoi en cours...';
+    }
+
+    const result = await submitToAirtable(data);
+
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = originalText;
+    }
+
+    if (result.success) {
+      let successMsg = form.querySelector('.form-success');
+      if (!successMsg) {
+        successMsg = document.createElement('div');
+        successMsg.className = 'form-success mt-4 p-4 rounded-xl bg-emerald-500/20 border border-emerald-500/30 text-emerald-400';
+        form.appendChild(successMsg);
+      }
+      successMsg.textContent = '✅ Compte enregistré ! Bienvenue dans IA Factory.';
+      form.reset();
+    } else {
+      alert('Une erreur est survenue : ' + (result.error || 'Erreur inconnue'));
+    }
+  });
+})();
+</script>
+</body>
+</html>
