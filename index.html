@@ -24,29 +24,32 @@
 </script>
 <style>
   #mobile-menu-toggle {
-    display: none;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
   }
   .mobile-menu-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
-    background: rgba(255,255,255,0.05);
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.1);
     color: white;
     cursor: pointer;
     transition: all 0.2s;
-    margin-left: 8px;
+    margin-left: 12px;
     flex-shrink: 0;
   }
   .mobile-menu-button:hover {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.2);
   }
   .mobile-menu-button svg {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
   }
   .mobile-menu-button .icon-close {
     display: none;
@@ -68,18 +71,19 @@
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255,255,255,0.1);
     padding: 16px;
-    z-index: 50;
+    z-index: 9999;
   }
   .mobile-nav a {
     display: block;
-    padding: 12px 16px;
-    color: rgba(255,255,255,0.7);
+    padding: 14px 18px;
+    color: rgba(255,255,255,0.8);
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 10px;
+    font-size: 16px;
     transition: all 0.2s;
   }
   .mobile-nav a:hover {
-    background: rgba(255,255,255,0.05);
+    background: rgba(255,255,255,0.1);
     color: white;
   }
   .mobile-nav .mobile-cta {
@@ -87,7 +91,7 @@
     color: #0a0a0f;
     margin-top: 8px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
   }
   .mobile-nav .mobile-cta:hover {
     background: rgba(255,255,255,0.9);
@@ -102,8 +106,19 @@
       display: none !important;
     }
   }
+  @media (max-width: 767px) {
+    nav .flex.items-center.gap-3 {
+      display: flex !important;
+      align-items: center;
+    }
+    nav a[href="inscription.html"].px-4 {
+      font-size: 13px;
+      padding: 8px 14px;
+      white-space: nowrap;
+    }
+  }
 </style>
-</head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/20 blur-[120px]"></div><div class="absolute bottom-[10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/15 blur-[100px]"></div><div class="absolute top-[40%] left-[30%] w-[30%] h-[30%] rounded-full bg-blue-600/10 blur-[120px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"><div class="flex items-center gap-2"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></div><div class="hidden md:flex items-center gap-8 text-sm text-white/70"><a class="hover:text-white transition-colors" href="agents.html">Agents</a><a class="hover:text-white transition-colors" href="formations.html">Formations</a><a class="hover:text-white transition-colors" href="pricing.html">Offres</a><a class="hover:text-white transition-colors" href="blog.html">Blog</a><a class="hover:text-white transition-colors" href="videos.html">Vidéos</a><a class="hover:text-white transition-colors" href="communaute.html">Communauté</a></div><div class="flex items-center gap-3"><a class="hidden sm:inline-flex px-4 py-2 text-sm font-medium text-white/70 hover:text-white transition-colors" href="dashboard.html">Se connecter</a><a class="px-4 py-2 text-sm font-medium rounded-full bg-white text-[#0a0a0f] hover:bg-white/90 transition-all" href="inscription.html">Commencer gratuitement</a>
+</head><body ><main class="min-h-screen bg-[#0a0a0f] text-white overflow-x-hidden"><div class="fixed inset-0 -z-10"><div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/20 blur-[120px]"></div><div class="absolute bottom-[10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-cyan-600/15 blur-[100px]"></div><div class="absolute top-[40%] left-[30%] w-[30%] h-[30%] rounded-full bg-blue-600/10 blur-[120px]"></div></div><nav class="w-full border-b border-white/5 bg-[#0a0a0f]/80 backdrop-blur-md sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"><div class="flex items-center gap-2"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center"><span class="text-sm font-bold">IA</span></div><span class="font-semibold text-lg tracking-tight">IA Factory</span></div><div class="hidden md:flex items-center gap-8 text-sm text-white/70"><a class="hover:text-white transition-colors" href="agents.html">Agents</a><a class="hover:text-white transition-colors" href="formations.html">Formations</a><a class="hover:text-white transition-colors" href="pricing.html">Offres</a><a class="hover:text-white transition-colors" href="blog.html">Blog</a><a class="hover:text-white transition-colors" href="videos.html">Vidéos</a><a class="hover:text-white transition-colors" href="communaute.html">Communauté</a></div><div class="flex items-center gap-3 mobile-nav-container"><a class="hidden sm:inline-flex px-4 py-2 text-sm font-medium text-white/70 hover:text-white transition-colors" href="dashboard.html">Se connecter</a><a class="px-4 py-2 text-sm font-medium rounded-full bg-white text-[#0a0a0f] hover:bg-white/90 transition-all" href="inscription.html">Commencer gratuitement</a>
         <input type="checkbox" id="mobile-menu-toggle" />
         <label for="mobile-menu-toggle" class="mobile-menu-button" aria-label="Ouvrir le menu">
           <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
