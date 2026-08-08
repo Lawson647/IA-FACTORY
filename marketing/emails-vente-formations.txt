@@ -1,0 +1,183 @@
+# Emails de vente IA Factory — 3 formations
+
+---
+
+## 1. Formation "10 prompts pour gagner 2h par jour" — 79 €
+
+### Sujet email
+10 prompts qui m'ont fait gagner 2h par jour
+
+### Corps email
+Bonjour,
+
+Comme beaucoup d'indépendants et de chefs d'entreprise, je passais trop de temps sur des tâches répétitives.
+
+Emails, résumés, plans de contenu, réponses aux clients...
+
+Pendant des mois, j'ai testé des centaines de prompts pour trouver ceux qui fonctionnent vraiment.
+
+J'ai regroupé les 10 meilleurs dans une formation de 1h30.
+
+**"10 prompts pour gagner 2h par jour"**
+
+Ce que tu apprends :
+- Rédiger un email professionnel en 30 secondes
+- Résumer un document long en 2 minutes
+- Créer un plan de contenu en 5 minutes
+- Adapter les prompts à ton métier
+- Construire ta routine quotidienne
+
+Tu reçois :
+- 8 modules vidéo (~1h30)
+- Un carnet de 50 prompts détaillés (PDF)
+- Des fiches récap (PDF)
+- Un quiz final
+
+Prix : 79 € (au lieu de 149 €)
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Pour commander, réponds simplement à cet email avec "OUI 10 prompts".
+
+Guillaume
+IA Factory
+https://ia-factory-seven.vercel.app/formation-10-prompts.html
+
+---
+
+## 2. Formation "Créer ton premier agent IA" — 79 €
+
+### Sujet email
+L'agent IA qui travaille pour toi, même quand tu dors
+
+### Corps email
+Bonjour,
+
+Imagine un assistant qui :
+- Qualifie tes demandes de devis
+- Relance tes leads automatiquement
+- Rédige tes comptes-rendus de réunion
+- Répond aux questions fréquentes de tes clients
+
+Et qui le fait 24h/24, sans jamais se plaindre.
+
+Ce n'est pas de la science-fiction. C'est un agent IA.
+
+Dans ma formation "Créer ton premier agent IA", je t'explique comment construire ton premier agent, pas à pas, sans savoir coder.
+
+Ce que tu apprends :
+- Quelle tâche automatiser en premier
+- Comment utiliser des outils visuels comme n8n ou Make
+- Comment structurer ton prompt système
+- Comment sécuriser et fiabiliser l'agent
+- Comment le mettre en production
+
+Tu reçois :
+- 5 modules vidéo (~40 min)
+- Un template de prompt système
+- Une checklist de création
+- Des fiches récap (PDF)
+- Un quiz final
+
+Prix : 79 € (au lieu de 149 €)
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Pour commander, réponds à cet email avec "OUI agent IA".
+
+Guillaume
+IA Factory
+https://ia-factory-seven.vercel.app/formation-premier-agent.html
+
+---
+
+## 3. Formation "Pipeline de contenu IA" — 79 €
+
+### Sujet email
+Produire du contenu chaque semaine sans y passer des heures
+
+### Corps email
+Bonjour,
+
+"Je n'ai pas le temps de poster sur LinkedIn."
+
+C'est la phrase que j'entends le plus souvent.
+
+Pourtant, avec un bon pipeline de contenu, je publie 3 posts par semaine en moins d'1h.
+
+Dans la formation "Pipeline de contenu IA", je te donne le système complet :
+- Générer 30 idées de contenu en 20 minutes
+- Rédiger des posts LinkedIn qui engagent
+- Créer des carrousels sans designer
+- Adapter un contenu à 5 formats différents
+- Programmer et mesurer tes publications
+
+Tu reçois :
+- 6 modules vidéo (~45 min)
+- Des templates copier-coller
+- Un calendrier éditorial type
+- Des fiches récap (PDF)
+- Une routine hebdomadaire de 1h
+
+Prix : 79 € (au lieu de 149 €)
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Pour commander, réponds à cet email avec "OUI pipeline contenu".
+
+Guillaume
+IA Factory
+https://ia-factory-seven.vercel.app/formation-pipeline-contenu.html
+
+---
+
+## 4. Pack IA Factory — 3 formations pour 149 €
+
+### Sujet email
+Pack IA Factory : les 3 formations à -48 %
+
+### Corps email
+Bonjour,
+
+Tu veux vraiment accélérer avec l'IA ?
+
+J'ai regroupé mes 3 formations essentielles dans un pack unique :
+
+1. **10 prompts pour gagner 2h par jour** (79 €)
+2. **Créer ton premier agent IA** (79 €)
+3. **Pipeline de contenu IA** (79 €)
+
+**Pack IA Factory : 149 € au lieu de 237 €**
+
+Tu reçois :
+- Toutes les vidéos des 3 formations
+- Les carnets de prompts et templates
+- Les fiches récap en PDF
+- Les quizzes finaux
+- Un plan d'action 30 jours
+
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Pour commander, réponds à cet email avec "OUI pack IA".
+
+Guillaume
+IA Factory
+https://ia-factory-seven.vercel.app/pack-ia-factory.html
+
+---
+
+## Comment utiliser ces emails
+
+1. Copie le texte
+2. Colle-le dans ton outil d'emailing (Mailchimp, Brevo, Google Contacts...)
+3. Envoie à ta liste de contacts / membres Skool / relations LinkedIn
+4. Les réponses "OUI..." te permettent de qualifier l'intérêt
+5. Tu leur envoies le lien de paiement quand Stripe sera branché
+
+---
+
+## PS / Signature type
+
+Guillaume | IA Factory  
+Formations IA pour indépendants et PME  
+https://ia-factory-seven.vercel.app
+
+Rejoins la communauté gratuite "Les Ateliers IA" sur Skool :  
+https://www.skool.com/les-ateliers-ia-8991/classroom
