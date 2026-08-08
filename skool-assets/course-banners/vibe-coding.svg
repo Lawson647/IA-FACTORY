@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#151520"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.15"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  
+  <!-- Formes décoratives -->
+  <circle cx="1000" cy="150" r="250" fill="url(#glow)"/>
+  <circle cx="150" cy="500" r="200" fill="url(#glow)" opacity="0.6"/>
+  
+  <!-- Ligne d'accent -->
+  <rect x="60" y="300" width="80" height="6" rx="3" fill="#EC4899"/>
+  
+  <!-- Icône -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="90" fill="#EC4899">✨</text>
+  
+  <!-- Titre -->
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white">Vibe Coding & Création</text>
+  
+  <!-- Sous-titre -->
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="26" fill="#aaaaaa">Développe sans coder avec Lovable, v0, Bolt, Cursor</text>
+  
+  <!-- Logo discret IA Factory -->
+  <text x="1140" y="560" font-family="Arial, sans-serif" font-size="18" fill="#666666" text-anchor="end">IA Factory · Les Ateliers IA</text>
+</svg>
