@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg1)"/>
+  <text x="540" y="200" font-family="Arial" font-size="48" font-weight="bold" fill="white" text-anchor="middle">10 prompts pour gagner 2h par jour</text>
+  
+  <text x="540" y="320" font-family="Arial" font-size="28" fill="#aaa" text-anchor="middle">Voici comment l'IA devient ton assistant quotidien.</text>
+  
+  <g transform="translate(180, 420)">
+    <rect width="700" height="70" rx="12" fill="#7C3AED" opacity="0.2"/>
+    <text x="350" y="45" font-family="Arial" font-size="24" fill="white" text-anchor="middle">✓ Rédiger des emails en 30 secondes</text>
+  </g>
+  
+  <g transform="translate(180, 510)">
+    <rect width="700" height="70" rx="12" fill="#06B6D4" opacity="0.2"/>
+    <text x="350" y="45" font-family="Arial" font-size="24" fill="white" text-anchor="middle">✓ Résumer un document en 2 minutes</text>
+  </g>
+  
+  <g transform="translate(180, 600)">
+    <rect width="700" height="70" rx="12" fill="#10B981" opacity="0.2"/>
+    <text x="350" y="45" font-family="Arial" font-size="24" fill="white" text-anchor="middle">✓ Créer un plan de contenu en 5 minutes</text>
+  </g>
+  
+  <text x="540" y="820" font-family="Arial" font-size="32" font-weight="bold" fill="#7C3AED" text-anchor="middle">Slide 1/5 · Formation IA Factory</text>
+</svg>

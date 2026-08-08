@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  
+  <text x="540" y="180" font-family="Arial" font-size="52" font-weight="bold" fill="white" text-anchor="middle">Les 3 règles d'un bon prompt</text>
+  
+  <g transform="translate(140, 320)">
+    <circle cx="60" cy="60" r="50" fill="#7C3AED"/>
+    <text x="60" y="75" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">1</text>
+    <text x="140" y="50" font-family="Arial" font-size="36" font-weight="bold" fill="white">Donner un rôle</text>
+    <text x="140" y="90" font-family="Arial" font-size="24" fill="#aaa">"Tu es un commercial B2B..."</text>
+  </g>
+  
+  <g transform="translate(140, 520)">
+    <circle cx="60" cy="60" r="50" fill="#06B6D4"/>
+    <text x="60" y="75" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">2</text>
+    <text x="140" y="50" font-family="Arial" font-size="36" font-weight="bold" fill="white">Contexte + résultat</text>
+    <text x="140" y="90" font-family="Arial" font-size="24" fill="#aaa">"Voici la situation, voici ce que je veux..."</text>
+  </g>
+  
+  <g transform="translate(140, 720)">
+    <circle cx="60" cy="60" r="50" fill="#10B981"/>
+    <text x="60" y="75" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">3</text>
+    <text x="140" y="50" font-family="Arial" font-size="36" font-weight="bold" fill="white">Format de sortie</text>
+    <text x="140" y="90" font-family="Arial" font-size="24" fill="#aaa">"Propose-moi 2 variantes / tableau / 5 points..."</text>
+  </g>
+  
+  <text x="540" y="980" font-family="Arial" font-size="28" fill="#7C3AED" text-anchor="middle">Formation IA Factory · Slide 2/5</text>
+</svg>

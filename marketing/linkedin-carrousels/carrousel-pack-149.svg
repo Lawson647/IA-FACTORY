@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="#0a0a0f"/>
+  <circle cx="540" cy="540" r="400" fill="url(#bg3)"/>
+  
+  <text x="540" y="250" font-family="Arial" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Pack IA Factory</text>
+  
+  <text x="540" y="350" font-family="Arial" font-size="36" fill="#aaa" text-anchor="middle">3 formations · 50 prompts · Plan 30 jours</text>
+  
+  <text x="540" y="500" font-family="Arial" font-size="120" font-weight="bold" fill="white" text-anchor="middle">149 €</text>
+  
+  <text x="540" y="600" font-family="Arial" font-size="36" fill="#aaa" text-anchor="middle" text-decoration="line-through">290 €</text>
+  
+  <rect x="340" y="680" width="400" height="70" rx="35" fill="white"/>
+  <text x="540" y="725" font-family="Arial" font-size="28" font-weight="bold" fill="#0a0a0f" text-anchor="middle">Accès à vie · 30 jours garantie</text>
+  
+  <text x="540" y="920" font-family="Arial" font-size="28" fill="#10B981" text-anchor="middle">Satisfait ou remboursé · ia-factory-seven.vercel.app/pack-ia-factory.html</text>
+</svg>

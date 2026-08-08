@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="#0a0a0f"/>
+  <circle cx="540" cy="540" r="420" fill="url(#bg4)"/>
+  
+  <text x="540" y="220" font-family="Arial" font-size="52" font-weight="bold" fill="white" text-anchor="middle">Les Ateliers IA</text>
+  
+  <text x="540" y="300" font-family="Arial" font-size="32" fill="#aaa" text-anchor="middle">Communauté gratuite IA Factory sur Skool</text>
+  
+  <g transform="translate(200, 420)">
+    <text x="0" y="0" font-family="Arial" font-size="28" fill="white">🎯 Ateliers pratiques chaque semaine</text>
+    <text x="0" y="60" font-family="Arial" font-size="28" fill="white">💬 Prompts testés par la communauté</text>
+    <text x="0" y="120" font-family="Arial" font-size="28" fill="white">🤝 Entraide entre indépendants et PME</text>
+    <text x="0" y="180" font-family="Arial" font-size="28" fill="white">🚀 Accès gratuit · Rejoins-nous</text>
+  </g>
+  
+  <rect x="340" y="720" width="400" height="70" rx="35" fill="#7C3AED"/>
+  <text x="540" y="765" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Rejoindre la communauté</text>
+  
+  <text x="540" y="920" font-family="Arial" font-size="24" fill="#aaa" text-anchor="middle">skool.com/les-ateliers-ia-8991/classroom</text>
+</svg>
