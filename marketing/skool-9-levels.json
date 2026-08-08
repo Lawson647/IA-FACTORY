@@ -1,127 +1,134 @@
 [
   {
     "level": 1,
-    "name": "Visiteur",
-    "price": 0,
+    "name": "Nouveau",
+    "points": 0,
     "icon": "👋",
-    "tag": "Gratuit",
+    "tag": "Début",
     "color": "white",
-    "access": [
-      "Accès à la page d&apos;accueil Skool",
-      "Aperçu des cours et des ateliers",
-      "Lecture des posts publics"
+    "how": "Rejoindre la communauté",
+    "unlock": [
+      "Page d&apos;accueil Skool",
+      "Posts publics",
+      "Aperçu des cours"
     ]
   },
   {
     "level": 2,
-    "name": "Membre Ateliers IA",
-    "price": 0,
-    "icon": "🎯",
-    "tag": "Gratuit",
+    "name": "Curieux",
+    "points": 50,
+    "icon": "🧐",
+    "tag": "Actif",
     "color": "emerald",
-    "access": [
-      "Participation à la communauté",
+    "how": "50 points gagnés (likes, commentaires, posts)",
+    "unlock": [
+      "Accès complet au feed",
       "Ateliers live hebdomadaires",
-      "Prompts et ressources gratuites",
-      "Discussions et entraide"
+      "Ressources gratuites partagées",
+      "Canal général"
     ]
   },
   {
     "level": 3,
     "name": "Prompteur",
-    "price": 49,
+    "points": 150,
     "icon": "⚡",
-    "tag": "Formation 1",
+    "tag": "Engagé",
     "color": "cyan",
-    "access": [
-      "Formation \"10 prompts pour gagner 2h/jour\"",
-      "Carnet de 50 prompts PDF",
-      "Fiches récap PDF",
-      "Quiz de validation"
+    "how": "150 points gagnés",
+    "unlock": [
+      "Module bonus : \"Mes 10 prompts favoris\"",
+      "Fiche récap PDF téléchargeable",
+      "Accès au canal \"Prompts testés\""
     ]
   },
   {
     "level": 4,
     "name": "Builder IA",
-    "price": 79,
+    "points": 400,
     "icon": "🤖",
-    "tag": "Formation 2",
+    "tag": "Constructeur",
     "color": "purple",
-    "access": [
-      "Formation \"Créer ton premier agent IA\"",
+    "how": "400 points gagnés",
+    "unlock": [
+      "Module débloqué : \"Créer son premier agent IA\"",
       "Template de prompt système",
-      "Checklist de création PDF",
-      "Accès aux modules agent"
+      "Checklist agent IA PDF",
+      "Accès au canal \"Builders\""
     ]
   },
   {
     "level": 5,
-    "name": "Content Maker IA",
-    "price": 79,
+    "name": "Content Maker",
+    "points": 800,
     "icon": "📅",
-    "tag": "Formation 3",
+    "tag": "Créateur",
     "color": "pink",
-    "access": [
-      "Formation \"Pipeline de contenu IA\"",
-      "Templates copier-coller",
-      "Routine hebdomadaire 1h",
-      "Fiches récap PDF"
+    "how": "800 points gagnés",
+    "unlock": [
+      "Module débloqué : \"Pipeline de contenu IA\"",
+      "Templates LinkedIn / newsletter",
+      "Calendrier éditorial PDF",
+      "Accès au canal \"Content Makers\""
     ]
   },
   {
     "level": 6,
-    "name": "Pack IA Factory",
-    "price": 149,
+    "name": "Praticien IA",
+    "points": 1500,
     "icon": "🚀",
-    "tag": "Pack 3 formations",
-    "color": "purple",
-    "access": [
-      "Les 3 formations IA Factory",
-      "Tous les PDFs téléchargeables",
-      "Plan d&apos;action 30 jours",
-      "Badge Pack IA Factory"
+    "tag": "Confirmé",
+    "color": "blue",
+    "how": "1500 points gagnés",
+    "unlock": [
+      "Module débloqué : \"Automatiser un workflow complet\"",
+      "Séance de revue d&apos;agent en groupe",
+      "Badge Praticien IA Factory"
     ]
   },
   {
     "level": 7,
     "name": "Ambassadeur",
-    "price": 0,
+    "points": 2500,
     "icon": "🤝",
-    "tag": "Affiliation",
-    "color": "blue",
-    "access": [
+    "tag": "Influenceur",
+    "color": "yellow",
+    "how": "2500 points gagnés + 3 membres invités",
+    "unlock": [
+      "Statut Ambassadeur",
       "Lien d&apos;affiliation personnel",
-      "30 % de commission sur chaque vente",
-      "Kit influenceur fourni",
-      "Accès à un canal privé ambassadeurs"
+      "30 % commission sur les ventes via ton lien",
+      "Canal privé \"Ambassadeurs\""
     ]
   },
   {
     "level": 8,
-    "name": "Ateliers Pro",
-    "price": 299,
+    "name": "Expert IA",
+    "points": 5000,
     "icon": "💎",
-    "tag": "Accompagnement",
+    "tag": "Expert",
     "color": "emerald",
-    "access": [
-      "Tout le Pack IA Factory",
-      "Coaching groupe mensuel",
-      "Revu de ton agent IA",
-      "Accès prioritaire aux ateliers"
+    "how": "5000 points gagnés",
+    "unlock": [
+      "Accès au coaching groupe mensuel",
+      "Revu personnalisé de ton agent IA",
+      "Mises à jour exclusives",
+      "Canal privé \"Experts\""
     ]
   },
   {
     "level": 9,
     "name": "Mentor IA Factory",
-    "price": 0,
+    "points": 10000,
     "icon": "🏆",
     "tag": "Élite",
-    "color": "yellow",
-    "access": [
-      "Statut de mentor reconnu",
-      "Invitation à co-animer des ateliers",
-      "Accès aux nouveautés en avant-première",
-      "Partenariat privilégié avec IA Factory"
+    "color": "purple",
+    "how": "10000 points gagnés + invitation",
+    "unlock": [
+      "Statut Mentor officiel",
+      "Co-animation des ateliers live",
+      "Partenariat privilégié IA Factory",
+      "Accès aux nouveautés en avant-première"
     ]
   }
 ]

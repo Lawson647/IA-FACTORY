@@ -1,0 +1,122 @@
+# Script vidéo de bienvenue — Skool "Les Ateliers IA"
+
+## Informations générales
+
+- **Durée** : 90 à 120 secondes
+- **Format** : Vidéo selfie ou avatar HeyGen
+- **Destination** : Post de bienvenue épinglé dans Skool + accueil communauté
+- **Ton** : chaleureux, direct, sans jargon
+- **Arrière-plan** : bureau propre ou fond neutre avec logo IA Factory discret
+
+---
+
+## Script
+
+[Plan fixe sur le visage, sourire, ton enthousiaste]
+
+Salut, bienvenue dans Les Ateliers IA.
+
+Je suis Guillaume, fondateur d'IA Factory, et je suis ravi de te retrouver ici.
+
+[Cut ou transition douce]
+
+Si tu es arrivé jusqu'ici, c'est probablement parce que tu veux que l'IA te fasse gagner du temps, de l'argent ou de la visibilité.
+
+Sans passer des heures à apprendre des choses inutiles.
+
+[Cut]
+
+Dans cette communauté, on fait simple.
+
+On apprend ensemble.
+On teste des outils.
+On partage des résultats.
+Et surtout, on construit des agents IA qui travaillent pour nous.
+
+[Cut]
+
+Tu as 9 levels pour progresser.
+
+Level 1 et 2, c'est gratuit : tu participes aux ateliers live, tu poses tes questions, tu découvres.
+
+À partir du Level 3, tu débloques des formations concrètes :
+- Level 3 : 10 prompts pour gagner 2h par jour
+- Level 4 : Créer ton premier agent IA
+- Level 5 : Pipeline de contenu IA
+
+Le Level 6, c'est le Pack IA Factory : les 3 formations à prix réduit.
+
+[Cut]
+
+Level 7, tu deviens ambassadeur : tu partages la communauté, tu gagnes des commissions.
+
+Level 8, c'est l'accompagnement Pro.
+
+Et Level 9, c'est le statut Mentor, sur invitation.
+
+[Cut]
+
+Mon conseil pour bien démarrer :
+
+1. Présente-toi dans le feed
+2. Dis-nous ton plus gros blocage avec l'IA
+3. Participe à l'atelier live de la semaine
+
+[Cut]
+
+On est là pour avancer ensemble.
+
+Bienvenue dans Les Ateliers IA.
+
+À très vite.
+
+Guillaume
+
+---
+
+## Instructions HeyGen (si tu génères la vidéo avec un avatar)
+
+**Avatar** : avatar professionnel français, entre 35 et 45 ans, ton sympathique
+**Voix** : voix masculine française, rythme calme, articulation claire
+**Fond** : bureau moderne ou gradient sombre IA Factory
+**Texte à l'écran** :
+- Slide 1 : "Bienvenue dans Les Ateliers IA"
+- Slide 2 : "9 levels pour progresser"
+- Slide 3 : "Formations pratiques · Communauté · Affiliation"
+
+**Langue** : français
+**Sous-titres** : oui, en français
+**Musique** : musique d'ambiance légère, pas de voix off superposée
+
+---
+
+## Texte de la légende / post accompagnant la vidéo
+
+🎥 Nouvelle vidéo de bienvenue pour les membres des Ateliers IA.
+
+Si tu viens d'arriver, regarde cette vidéo pour comprendre :
+- Ce qu'on fait ici
+- Comment progresser avec les 9 levels
+- Comment débloquer les formations
+
+Bienvenue à toi 🚀
+
+#Bienvenue #IAFactory #LesAteliersIA #Skool
+
+---
+
+## Variante courte pour Reels / TikTok (30 secondes)
+
+[Selfie, dynamique]
+
+Bienvenue dans Les Ateliers IA.
+
+Ici, on apprend l'IA sans jargon.
+
+Ateliers live, formations pratiques, agents IA, pipeline de contenu.
+
+9 levels pour progresser. Gratuit pour commencer.
+
+Rejoins-nous. Lien dans la bio.
+
+[Logo IA Factory à la fin]
