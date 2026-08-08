@@ -1,0 +1,113 @@
+# 12 Prompts DALL-E 3 pour ChatGPT Images — Bannières Skool IA Factory
+
+## Instructions
+
+1. Copie-colle **un prompt à la fois** dans ChatGPT Images.
+2. Demande le format **1792x1024 pixels**.
+3. Après chaque image, dis : *"Génère la bannière suivante avec le même style."*
+4. Recadre ensuite en **1200x600** avec Canva ou Photopea.
+
+## Palette couleurs IA Factory
+
+- Fond : #05050f (bleu nuit très sombre)
+- Violet : #a78bfa
+- Bleu : #60a5fa
+- Cyan : #22d3ee
+- Texte : blanc
+
+---
+
+## Bannière 1 : Bienvenue · 9 levels
+
+Create a premium wide banner (1792x1024 pixels) for an AI learning community called "Les Ateliers IA". Dark navy blue background (#05050f). Big bold glowing white text "BIENVENUE" at top center, below it medium cyan text "9 LEVELS". Futuristic holographic interface elements, glowing cyan and purple particles, progress bars, level badges, achievement rings. Clean modern tech aesthetic, no people. Neon accents cyan #22d3ee, purple #a78bfa, blue #60a5fa. Professional AI startup style.
+
+---
+
+## Bannière 2 : 10 prompts pour gagner 2h/jour
+
+Premium wide banner (1792x1024) for an AI prompt engineering course. Dark navy blue background (#05050f). Large glowing white text "10 PROMPTS" centered, below it cyan glowing text "GAGNER 2H/JOUR". AI chat interface bubbles floating, lightning bolt icons, clock/time-saved symbols, prompt cards floating in 3D space. Cyan, violet, electric blue neon glows. Modern tech, clean, no people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 3 : Créer ton premier agent IA
+
+Premium wide banner (1792x1024) for a beginner AI agent automation course. Dark navy blue background (#05050f). Large glowing white text "AGENT IA" centered, below it smaller cyan text "SANS CODER". Cute futuristic robot made of glowing cyan lines, workflow nodes, automation gears, connection arrows. n8n/Make inspired visual flow. Neon purple and cyan accents. Premium tech style, no people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 4 : Pipeline de contenu IA
+
+Premium wide banner (1792x1024) for an AI content creation pipeline course. Dark navy blue background (#05050f). Large glowing white text "CONTENU IA" centered, below it smaller cyan text "LINKEDIN · NEWSLETTER · BLOG". Content pipeline visualization with LinkedIn post, newsletter, blog article, carousel icons connected by glowing arrows. Calendar icon, content calendar grid. Modern marketing tech aesthetic, no people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 5 : Découverte de l'IA
+
+Premium wide banner (1792x1024) for an AI fundamentals course called "Découverte de l'IA". Dark navy blue background (#05050f). Large glowing white text "DÉCOUVERTE" centered, below it smaller cyan text "DE L'IA". Glowing brain made of neural network connections, light particles, futuristic HUD elements. Abstract, clean, modern. No people. Neon cyan and purple accents. Wide format. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 6 : IA Pratique
+
+Premium wide banner (1792x1024) for a practical AI course "IA Pratique". Dark navy blue background (#05050f). Large glowing white text "IA PRATIQUE" centered. Laptop screen glowing with AI interface, holographic tools floating around, hands typing on keyboard silhouette. Modern workspace vibe. Cyan and violet neon light. Professional, clean, no realistic faces. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 7 : Bootcamps IA
+
+Premium wide banner (1792x1024) for live AI workshops "Bootcamps IA". Dark navy background (#05050f). Large glowing white text "BOOTCAMPS" centered, below it smaller cyan text "IA". Futuristic virtual classroom stage with glowing podium, holographic presentation screen, audience silhouettes in dark. Bright cyan and purple spotlights. Energy, action, community learning. Wide format, no detailed faces. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 8 : Maîtriser les outils IA
+
+Premium wide banner (1792x1024) for an AI tools course "Maîtriser les outils IA". Dark navy blue background (#05050f). Large glowing white text "OUTILS" centered, below it smaller cyan text "IA". Floating holographic icons for ChatGPT, Claude, Midjourney, n8n, Make, Notion AI arranged in a clean dashboard grid. Cyan, blue, violet glows. Modern tool collection aesthetic. No people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 9 : Agents IA & Automatisation
+
+Premium wide banner (1792x1024) for an AI automation course "Agents IA & Automatisation". Dark navy blue background (#05050f). Large glowing white text "AGENTS" centered, below it smaller cyan text "AUTOMATISATION". Futuristic robot agent made of glowing cyan lines connected to workflow nodes, arrows, automation symbols. n8n and Make inspired visual nodes. Neon purple and cyan accents. Clean tech style. No people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 10 : Business IA
+
+Premium wide banner (1792x1024) for an AI monetization course "Business IA". Dark navy background (#05050f). Large glowing white text "BUSINESS" centered, below it smaller cyan text "IA". Glowing coins, upward growth chart, briefcase, laptop with AI interface, euro symbols floating. Gold, cyan, purple accents. Professional business tech aesthetic. No people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Bannière 11 : Vibe Coding & Création
+
+Premium wide banner (1792x1024) for a no-code AI creation course "Vibe Coding & Création". Dark navy blue background (#05050f). Large glowing white text "VIBE CODING" centered. Abstract holographic app interface, code blocks, sparkles, creative magic particles. Tools like Lovable, v0, Bolt, Cursor represented as glowing icons. Pink, cyan, purple glows. Modern creative tech. No people. Colors pink #f472b6, cyan #22d3ee, purple #a78bfa.
+
+---
+
+## Bannière 12 : Ressources & Templates
+
+Premium wide banner (1792x1024) for an AI resources library "Ressources & Templates". Dark navy blue background (#05050f). Large glowing white text "RESSOURCES" centered, below it smaller cyan text "IA". Floating folders, documents, prompt cards, PDFs, templates, checklists arranged in organized 3D space. Cyan and blue neon glows. Organized, abundant, clean. No people. Colors cyan #22d3ee, purple #a78bfa, blue #60a5fa.
+
+---
+
+## Méthode de génération efficace
+
+Pour générer les 12 bannières rapidement dans ChatGPT Images :
+
+1. Copie le prompt 1
+2. Ajoute : "Generate this as 1792x1024"
+3. Une fois l'image affichée, écris : "Next banner, same style: [prompt 2]"
+4. Continue ainsi jusqu'à la 12
+
+## Recadrage final
+
+DALL-E génère en 1792x1024. Pour obtenir 1200x600 :
+
+1. Télécharge chaque image
+2. Va sur canva.com (gratuit)
+3. Crée un design "Custom size" 1200 x 600 pixels
+4. Importe l'image
+5. Recadre en gardant le texte centré
+6. Télécharge en PNG
+
+IA Factory — https://ia-factory-seven.vercel.app
+
