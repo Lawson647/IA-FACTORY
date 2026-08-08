@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <circle cx="600" cy="315" r="300" fill="url(#bgGrad)"/>
+  
+  <!-- Central badge -->
+  <rect x="350" y="180" width="500" height="270" rx="24" fill="#1a1a24" stroke="#7C3AED" stroke-width="3"/>
+  
+  <text x="600" y="260" font-family="Arial" font-size="24" fill="#aaa" text-anchor="middle">PACK IA FACTORY</text>
+  
+  <text x="600" y="340" font-family="Arial" font-size="72" font-weight="bold" fill="white" text-anchor="middle">149 €</text>
+  
+  <text x="600" y="390" font-family="Arial" font-size="22" fill="#7C3AED" text-anchor="middle">Accès à vie · 50 prompts · 30 jours d'action</text>
+  
+  <text x="600" y="510" font-family="Arial" font-size="18" fill="#06B6D4" text-anchor="middle">✓ Satisfait ou remboursé 30 jours · ✓ Mises à jour incluses</text>
+</svg>
