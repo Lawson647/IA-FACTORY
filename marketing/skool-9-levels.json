@@ -1,0 +1,127 @@
+[
+  {
+    "level": 1,
+    "name": "Visiteur",
+    "price": 0,
+    "icon": "👋",
+    "tag": "Gratuit",
+    "color": "white",
+    "access": [
+      "Accès à la page d&apos;accueil Skool",
+      "Aperçu des cours et des ateliers",
+      "Lecture des posts publics"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Membre Ateliers IA",
+    "price": 0,
+    "icon": "🎯",
+    "tag": "Gratuit",
+    "color": "emerald",
+    "access": [
+      "Participation à la communauté",
+      "Ateliers live hebdomadaires",
+      "Prompts et ressources gratuites",
+      "Discussions et entraide"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Prompteur",
+    "price": 49,
+    "icon": "⚡",
+    "tag": "Formation 1",
+    "color": "cyan",
+    "access": [
+      "Formation \"10 prompts pour gagner 2h/jour\"",
+      "Carnet de 50 prompts PDF",
+      "Fiches récap PDF",
+      "Quiz de validation"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Builder IA",
+    "price": 79,
+    "icon": "🤖",
+    "tag": "Formation 2",
+    "color": "purple",
+    "access": [
+      "Formation \"Créer ton premier agent IA\"",
+      "Template de prompt système",
+      "Checklist de création PDF",
+      "Accès aux modules agent"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Content Maker IA",
+    "price": 79,
+    "icon": "📅",
+    "tag": "Formation 3",
+    "color": "pink",
+    "access": [
+      "Formation \"Pipeline de contenu IA\"",
+      "Templates copier-coller",
+      "Routine hebdomadaire 1h",
+      "Fiches récap PDF"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Pack IA Factory",
+    "price": 149,
+    "icon": "🚀",
+    "tag": "Pack 3 formations",
+    "color": "purple",
+    "access": [
+      "Les 3 formations IA Factory",
+      "Tous les PDFs téléchargeables",
+      "Plan d&apos;action 30 jours",
+      "Badge Pack IA Factory"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Ambassadeur",
+    "price": 0,
+    "icon": "🤝",
+    "tag": "Affiliation",
+    "color": "blue",
+    "access": [
+      "Lien d&apos;affiliation personnel",
+      "30 % de commission sur chaque vente",
+      "Kit influenceur fourni",
+      "Accès à un canal privé ambassadeurs"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Ateliers Pro",
+    "price": 299,
+    "icon": "💎",
+    "tag": "Accompagnement",
+    "color": "emerald",
+    "access": [
+      "Tout le Pack IA Factory",
+      "Coaching groupe mensuel",
+      "Revu de ton agent IA",
+      "Accès prioritaire aux ateliers"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Mentor IA Factory",
+    "price": 0,
+    "icon": "🏆",
+    "tag": "Élite",
+    "color": "yellow",
+    "access": [
+      "Statut de mentor reconnu",
+      "Invitation à co-animer des ateliers",
+      "Accès aux nouveautés en avant-première",
+      "Partenariat privilégié avec IA Factory"
+    ]
+  }
+]
