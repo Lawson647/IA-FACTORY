@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.15"/>
+    </linearGradient>
+    
+    <linearGradient id="tableGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="15" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="700" fill="url(#bgGradient)"/>
+  
+  <!-- Cercles lumineux d'ambiance -->
+  <circle cx="900" cy="120" r="280" fill="url(#glow1)"/>
+  <circle cx="200" cy="600" r="200" fill="url(#glow1)" opacity="0.6"/>
+  
+  <!-- Réseau de lignes en arrière-plan -->
+  <g stroke="#22d3ee" stroke-width="1" opacity="0.15">
+    <line x1="100" y1="100" x2="300" y2="200"/>
+    <line x1="300" y1="200" x2="500" y2="150"/>
+    <line x1="500" y1="150" x2="700" y2="250"/>
+    <line x1="700" y1="250" x2="900" y2="200"/>
+    <line x1="900" y1="200" x2="1100" y2="300"/>
+    <line x1="200" y1="400" x2="400" y2="350"/>
+    <line x1="400" y1="350" x2="600" y2="400"/>
+    <line x1="600" y1="400" x2="800" y2="350"/>
+    <line x1="800" y1="350" x2="1000" y2="420"/>
+    <line x1="300" y1="500" x2="500" y2="550"/>
+    <line x1="500" y1="550" x2="700" y2="520"/>
+    <line x1="700" y1="520" x2="900" y2="580"/>
+  </g>
+  
+  <!-- Nœuds du réseau -->
+  <g fill="#22d3ee" opacity="0.8">
+    <circle cx="100" cy="100" r="4"/>
+    <circle cx="300" cy="200" r="5"/>
+    <circle cx="500" cy="150" r="4"/>
+    <circle cx="700" cy="250" r="5"/>
+    <circle cx="900" cy="200" r="4"/>
+    <circle cx="1100" cy="300" r="5"/>
+    <circle cx="200" cy="400" r="4"/>
+    <circle cx="600" cy="400" r="5"/>
+    <circle cx="1000" cy="420" r="4"/>
+    <circle cx="500" cy="550" r="5"/>
+    <circle cx="900" cy="580" r="4"/>
+  </g>
+  
+  <!-- Table holographique -->
+  <g filter="url(#glow)">
+    <ellipse cx="600" cy="480" rx="420" ry="140" fill="url(#tableGradient)" stroke="#22d3ee" stroke-width="3"/>
+    <ellipse cx="600" cy="475" rx="400" ry="130" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.6"/>
+  </g>
+  
+  <!-- Éléments flottants IA au-dessus de la table -->
+  <g filter="url(#glow)">
+    <!-- Prompts -->
+    <g transform="translate(300, 180)">
+      <rect x="0" y="0" width="140" height="50" rx="12" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+      <text x="70" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#a78bfa" text-anchor="middle">⚡ PROMPTS</text>
+      <circle cx="70" cy="-10" r="4" fill="#a78bfa" opacity="0.8"/>
+      <line x1="70" y1="-10" x2="70" y2="-35" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
+    </g>
+    
+    <!-- Agents -->
+    <g transform="translate(500, 120)">
+      <rect x="0" y="0" width="140" height="50" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+      <text x="70" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#22d3ee" text-anchor="middle">🤖 AGENTS</text>
+      <circle cx="70" cy="-10" r="4" fill="#22d3ee" opacity="0.8"/>
+      <line x1="70" y1="-10" x2="70" y2="-35" stroke="#22d3ee" stroke-width="1.5" opacity="0.6"/>
+    </g>
+    
+    <!-- Contenu -->
+    <g transform="translate(700, 150)">
+      <rect x="0" y="0" width="150" height="50" rx="12" fill="#1e293b" stroke="#60a5fa" stroke-width="2"/>
+      <text x="75" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#60a5fa" text-anchor="middle">📅 CONTENU</text>
+      <circle cx="75" cy="-10" r="4" fill="#60a5fa" opacity="0.8"/>
+      <line x1="75" y1="-10" x2="75" y2="-35" stroke="#60a5fa" stroke-width="1.5" opacity="0.6"/>
+    </g>
+    
+    <!-- TikTok -->
+    <g transform="translate(880, 220)">
+      <rect x="0" y="0" width="130" height="45" rx="12" fill="#1e293b" stroke="#f472b6" stroke-width="2"/>
+      <text x="65" y="29" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#f472b6" text-anchor="middle">▶ TIKTOK</text>
+      <circle cx="65" cy="-8" r="4" fill="#f472b6" opacity="0.8"/>
+      <line x1="65" y1="-8" x2="65" y2="-30" stroke="#f472b6" stroke-width="1.5" opacity="0.6"/>
+    </g>
+    
+    <!-- WordPress -->
+    <g transform="translate(180, 240)">
+      <rect x="0" y="0" width="150" height="45" rx="12" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+      <text x="75" y="29" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#34d399" text-anchor="middle">WP / SITES</text>
+      <circle cx="75" cy="-8" r="4" fill="#34d399" opacity="0.8"/>
+      <line x1="75" y1="-8" x2="75" y2="-30" stroke="#34d399" stroke-width="1.5" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Personnes autour de la table -->
+  <g opacity="0.95">
+    <!-- Personne 1 (gauche) -->
+    <g transform="translate(180, 420)">
+      <!-- Corps -->
+      <path d="M40,120 Q20,160 30,200 L90,200 Q100,160 80,120 Z" fill="#334155"/>
+      <!-- Tête -->
+      <circle cx="60" cy="90" r="30" fill="#f8fafc"/>
+      <!-- Épaules holographiques -->
+      <ellipse cx="60" cy="140" rx="45" ry="15" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+    </g>
+    
+    <!-- Personne 2 (devant gauche) -->
+    <g transform="translate(360, 510)">
+      <path d="M40,100 Q25,140 35,170 L85,170 Q95,140 80,100 Z" fill="#334155"/>
+      <circle cx="60" cy="75" r="28" fill="#f8fafc"/>
+      <ellipse cx="60" cy="120" rx="42" ry="13" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+    </g>
+    
+    <!-- Personne 3 (centre devant) -->
+    <g transform="translate(540, 540)">
+      <path d="M45,90 Q30,130 40,160 L90,160 Q100,130 85,90 Z" fill="#334155"/>
+      <circle cx="65" cy="65" r="30" fill="#f8fafc"/>
+      <ellipse cx="65" cy="110" rx="45" ry="14" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+      <!-- Mains sur la table -->
+      <circle cx="30" cy="160" r="8" fill="#f8fafc"/>
+      <circle cx="100" cy="160" r="8" fill="#f8fafc"/>
+    </g>
+    
+    <!-- Personne 4 (devant droite) -->
+    <g transform="translate(720, 510)">
+      <path d="M40,100 Q25,140 35,170 L85,170 Q95,140 80,100 Z" fill="#334155"/>
+      <circle cx="60" cy="75" r="28" fill="#f8fafc"/>
+      <ellipse cx="60" cy="120" rx="42" ry="13" fill="#1e293b" stroke="#60a5fa" stroke-width="2"/>
+    </g>
+    
+    <!-- Personne 5 (droite) -->
+    <g transform="translate(900, 420)">
+      <path d="M40,120 Q20,160 30,200 L90,200 Q100,160 80,120 Z" fill="#334155"/>
+      <circle cx="60" cy="90" r="30" fill="#f8fafc"/>
+      <ellipse cx="60" cy="140" rx="45" ry="15" fill="#1e293b" stroke="#f472b6" stroke-width="2"/>
+    </g>
+    
+    <!-- Personne 6 (derrière) -->
+    <g transform="translate(540, 300)">
+      <path d="M40,90 Q25,130 35,160 L85,160 Q95,130 80,90 Z" fill="#334155"/>
+      <circle cx="60" cy="65" r="28" fill="#f8fafc"/>
+      <ellipse cx="60" cy="110" rx="42" ry="13" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Texte principal BIENVENUE -->
+  <g filter="url(#strongGlow)">
+    <text x="600" y="80" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGradient)" text-anchor="middle">BIENVENUE DANS</text>
+    <text x="600" y="145" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="white" text-anchor="middle">LES ATELIERS IA</text>
+  </g>
+  
+  <!-- Slogan -->
+  <text x="600" y="640" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#94a3b8" text-anchor="middle">Apprends l'IA. Automatise. Crée. Ensemble.</text>
+</svg>
