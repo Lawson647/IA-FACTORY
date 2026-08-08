@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="627" fill="url(#bg1)"/>
+  
+  <circle cx="150" cy="150" r="300" fill="#7C3AED" opacity="0.08"/>
+  <circle cx="1050" cy="500" r="250" fill="#06B6D4" opacity="0.08"/>
+  
+  <text x="80" y="180" font-family="Arial" font-size="28" fill="#7C3AED" font-weight="bold">FORMATION IA FACTORY</text>
+  
+  <text x="80" y="280" font-family="Arial" font-size="58" font-weight="bold" fill="white">10 prompts pour</text>
+  <text x="80" y="360" font-family="Arial" font-size="58" font-weight="bold" fill="url(#accent1)">gagner 2h par jour</text>
+  
+  <text x="80" y="440" font-family="Arial" font-size="28" fill="#aaa">50 prompts détaillés · Fiches récap · Quiz · 1h30</text>
+  
+  <rect x="80" y="490" width="320" height="70" rx="35" fill="white"/>
+  <text x="240" y="535" font-family="Arial" font-size="26" font-weight="bold" fill="#0a0a0f" text-anchor="middle">79 € · Accès à vie</text>
+  
+  <text x="1120" y="580" font-family="Arial" font-size="22" fill="#666" text-anchor="end">ia-factory-seven.vercel.app</text>
+</svg>

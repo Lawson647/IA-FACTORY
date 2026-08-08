@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a2e1a"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="627" fill="url(#bg3)"/>
+  
+  <circle cx="600" cy="320" r="350" fill="#10B981" opacity="0.06"/>
+  
+  <text x="80" y="180" font-family="Arial" font-size="28" fill="#10B981" font-weight="bold">MARKETING IA</text>
+  
+  <text x="80" y="280" font-family="Arial" font-size="58" font-weight="bold" fill="white">Pipeline de</text>
+  <text x="80" y="360" font-family="Arial" font-size="58" font-weight="bold" fill="url(#accent3)">contenu IA</text>
+  
+  <text x="80" y="440" font-family="Arial" font-size="28" fill="#aaa">LinkedIn · Newsletter · Blog · 6 modules · 45 min</text>
+  
+  <rect x="80" y="490" width="320" height="70" rx="35" fill="white"/>
+  <text x="240" y="535" font-family="Arial" font-size="26" font-weight="bold" fill="#0a0a0f" text-anchor="middle">79 € · Accès à vie</text>
+  
+  <text x="1120" y="580" font-family="Arial" font-size="22" fill="#666" text-anchor="end">ia-factory-seven.vercel.app</text>
+</svg>

@@ -1,0 +1,162 @@
+# 3 posts LinkedIn de lancement — IA Factory
+
+---
+
+## Post 1 : Lancement "10 prompts pour gagner 2h par jour"
+
+### Visuel recommandé
+Bannière : `marketing/linkedin-bannieres/banniere-10-prompts.svg`
+
+### Texte du post
+J'ai passé 6 mois à tester des centaines de prompts.
+
+La plupart donnaient des résultats moyens.
+
+Mais 10 d'entre eux m'ont fait gagner facilement 2 heures par jour.
+
+J'ai décidé de les partager dans une formation courte.
+
+**"10 prompts pour gagner 2h par jour"**
+
+8 modules vidéo, un carnet de 50 prompts détaillés, des fiches récap et un quiz.
+
+Pour les indépendants, freelances et PME qui veulent arrêter de perdre du temps sur des tâches répétitives.
+
+Prix de lancement : 79 € (au lieu de 149 €)
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Le lien est en commentaire 👇
+
+#IA #Productivité #Indépendant #ChatGPT #Automation
+
+### Premier commentaire (à publier juste après)
+Lien vers la formation : https://ia-factory-seven.vercel.app/formation-10-prompts.html
+
+---
+
+## Post 2 : Lancement "Créer ton premier agent IA"
+
+### Visuel recommandé
+Bannière : `marketing/linkedin-bannieres/banniere-premier-agent.svg`
+
+### Texte du post
+Vous perdez du temps sur des tâches comme :
+→ qualifier des demandes de devis
+→ relancer des prospects
+→ rédiger des comptes-rendus
+→ répondre aux mêmes questions
+
+Un agent IA peut le faire pour vous.
+
+Sans coder.
+
+Avec des outils visuels comme n8n ou Make.
+
+J'ai créé une formation de 5 modules pour vous montrer comment :
+**"Créer ton premier agent IA"**
+
+Ce que vous apprenez :
+- Choisir la bonne tâche à automatiser
+- Construire l'agent pas à pas
+- Sécuriser et fiabiliser le processus
+- Le mettre en production
+
+Template de prompt système + checklist + fiches récap inclus.
+
+Prix : 79 € (au lieu de 149 €)
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Lien en commentaire 👇
+
+#IA #AgentIA #Automation #n8n #Productivité
+
+### Premier commentaire (à publier juste après)
+Lien vers la formation : https://ia-factory-seven.vercel.app/formation-premier-agent.html
+
+---
+
+## Post 3 : Lancement "Pipeline de contenu IA"
+
+### Visuel recommandé
+Bannière : `marketing/linkedin-bannieres/banniere-pipeline-contenu.svg`
+
+### Texte du post
+"Je n'ai pas le temps de poster sur LinkedIn."
+
+C'est l'excuse que j'entends le plus souvent.
+
+Pourtant, avec un bon pipeline de contenu IA, je publie 3 posts par semaine en moins d'1 heure.
+
+Je résume la méthode dans ma nouvelle formation :
+**"Pipeline de contenu IA"**
+
+6 modules pour apprendre à :
+- Générer 30 idées de contenu en 20 minutes
+- Rédiger des posts LinkedIn qui engagent
+- Créer des carrousels sans designer
+- Adapter un contenu à 5 formats
+- Programmer et mesurer ses publications
+
+Templates copier-coller + routine hebdomadaire 1h + fiches récap inclus.
+
+Prix : 79 € (au lieu de 149 €)
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Lien en commentaire 👇
+
+#ContentMarketing #LinkedIn #IA #Productivité #SocialMedia
+
+### Premier commentaire (à publier juste après)
+Lien vers la formation : https://ia-factory-seven.vercel.app/formation-pipeline-contenu.html
+
+---
+
+## Bonus : Post de lancement du Pack IA Factory
+
+### Texte du post
+J'ai regroupé mes 3 formations IA dans un pack.
+
+Pour ceux qui veulent vraiment accélérer :
+
+**Pack IA Factory — 149 €**
+
+Au lieu de 237 € si tu prends les 3 séparément.
+
+Tu reçois :
+✅ 10 prompts pour gagner 2h par jour
+✅ Créer ton premier agent IA
+✅ Pipeline de contenu IA
+✅ Carnets de prompts et templates
+✅ Fiches récap en PDF
+✅ Plan d'action 30 jours
+
+Accès à vie. Satisfait ou remboursé 30 jours.
+
+Lien en commentaire 👇
+
+#IA #Productivité #Marketing #Indépendant #Formation
+
+### Premier commentaire
+Lien vers le pack : https://ia-factory-seven.vercel.app/pack-ia-factory.html
+
+---
+
+## Mode d'emploi
+
+1. Télécharge la bannière SVG et convertis-la en PNG (Canva, Figma, ou export navigateur)
+2. Copie le texte du post
+3. Colle-le sur LinkedIn
+4. Publie la bannière en image
+5. Ajoute le lien en premier commentaire (LinkedIn pénalise les liens dans le post principal)
+6. Réponds aux commentaires dans les 2 heures suivant la publication
+
+---
+
+## Calendrier de publication suggéré
+
+| Jour | Post |
+|------|------|
+| Lundi 9h | Post 1 — 10 prompts |
+| Mercredi 9h | Post 2 — Agent IA |
+| Vendredi 9h | Post 3 — Pipeline contenu |
+| Semaine suivante, mardi 9h | Bonus — Pack IA Factory |
