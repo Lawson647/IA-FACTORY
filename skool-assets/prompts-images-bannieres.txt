@@ -1,0 +1,177 @@
+# 12 Prompts pour générer les bannières Skool IA Factory
+
+## Outils gratuits recommandés
+
+- **Leonardo.ai** : 150 crédits/jour, excellent pour les styles artistiques
+- **Bing Image Creator** : gratuit, fonctionne avec DALL-E, bon pour les illustrations
+- **Ideogram.ai** : gratuit, très bon pour le texte sur les images
+- **Playground AI** : version gratuite disponible
+
+## Format conseillé
+
+- **Ratio** : 2:1 (1200 x 600 pixels)
+- **Style** : digital art, modern, premium tech, dark mode
+- **Couleurs** : fond bleu nuit profond, accents violet/cyan/bleu électrique
+
+---
+
+## 1. Bienvenue · 9 levels
+
+```
+Premium wide banner for an AI learning community welcome page. 
+Dark navy blue background (#05050f). Big glowing white text 
+"BIENVENUE" and smaller text "9 LEVELS" floating above a futuristic 
+holographic interface. Glowing cyan and purple particles, progress 
+bars, level badges, achievement rings. Clean modern tech aesthetic. 
+No people. Professional AI startup style. Wide format 2:1.
+```
+
+---
+
+## 2. Découverte de l'IA
+
+```
+Premium course banner "Découverte de l'IA" for an AI community. 
+Dark blue tech background. Glowing brain made of neural network 
+connections, light particles, futuristic HUD elements. Cyan and 
+purple neon accents. Abstract, clean, modern. No text except 
+conceptual. Wide format 2:1.
+```
+
+---
+
+## 3. IA Pratique
+
+```
+Premium course banner "IA Pratique" for practical AI training. 
+Dark blue background. Laptop screen glowing with AI interface, 
+hands typing, holographic tools floating around. Cyan and violet 
+neon light. Modern workspace vibe. Professional, clean, wide 
+format 2:1.
+```
+
+---
+
+## 4. Bootcamps IA
+
+```
+Premium course banner "Bootcamps IA" for live AI workshops. 
+Dark navy background. Futuristic virtual classroom stage with 
+glowing podium, holographic presentation screen, audience silhouettes. 
+Bright cyan and purple spotlights. Energy, action, community. 
+Wide format 2:1.
+```
+
+---
+
+## 5. Maîtriser les outils IA
+
+```
+Premium course banner "Maîtriser les outils IA". Dark tech background. 
+Floating holographic icons for ChatGPT, Claude, Midjourney, n8n, Make, 
+Notion AI, arranged in a clean dashboard grid. Cyan, blue, violet glows. 
+Modern tool collection aesthetic. Wide format 2:1.
+```
+
+---
+
+## 6. Agents IA & Automatisation
+
+```
+Premium course banner "Agents IA & Automatisation". Dark blue background. 
+Futuristic robot agent made of glowing cyan lines, connected to workflow 
+nodes, arrows, automation symbols. n8n and Make inspired visual nodes. 
+Neon purple and cyan accents. Clean tech style. Wide format 2:1.
+```
+
+---
+
+## 7. Business IA
+
+```
+Premium course banner "Business IA" for monetizing AI. Dark navy 
+background. Glowing coins, upward growth chart, briefcase, laptop 
+with AI interface, dollar/euro symbols floating. Gold, cyan, purple 
+accents. Professional business tech aesthetic. Wide format 2:1.
+```
+
+---
+
+## 8. Vibe Coding & Création
+
+```
+Premium course banner "Vibe Coding" for no-code AI app creation. 
+Dark blue background. Abstract holographic app interface, code blocks, 
+sparkles, creative magic particles. Tools like Lovable, v0, Bolt, 
+Cursor represented as glowing icons. Pink, cyan, purple glows. 
+Wide format 2:1.
+```
+
+---
+
+## 9. Ressources & Templates
+
+```
+Premium course banner "Ressources & Templates" for AI prompt library. 
+Dark tech background. Floating folders, documents, prompt cards, 
+PDFs, templates, checklists arranged in 3D space. Cyan and blue 
+neon glows. Organized, abundant, clean. Wide format 2:1.
+```
+
+---
+
+## 10. 10 prompts pour gagner 2h/jour
+
+```
+Premium course banner "10 prompts pour gagner 2h/jour" for prompt 
+engineering training. Dark blue background. Glowing prompt bubbles, 
+AI chat interface, lightning bolt icons, clock saved time symbol. 
+Text snippets floating. Cyan, violet, electric blue. Energetic and 
+clean. Wide format 2:1.
+```
+
+---
+
+## 11. Créer ton premier agent IA
+
+```
+Premium course banner "Créer ton premier agent IA" for beginners. 
+Dark navy background. Cute futuristic robot agent with glowing cyan 
+eyes, connected to workflow nodes and automation gears. Friendly but 
+professional. Purple and cyan neon accents. Wide format 2:1.
+```
+
+---
+
+## 12. Pipeline de contenu IA
+
+```
+Premium course banner "Pipeline de contenu IA" for AI content creation. 
+Dark blue background. Content pipeline visualization: LinkedIn post, 
+newsletter, blog article, carousel, calendar icons connected by 
+glowing arrows. Cyan and blue neon. Modern marketing tech aesthetic. 
+Wide format 2:1.
+```
+
+---
+
+## Conseils d'utilisation
+
+1. **Génère 3-4 variants par prompt** et choisis la meilleure.
+2. **Si le texte n'est pas lisible**, utilise Ideogram.ai qui gère mieux le texte.
+3. **Télécharge en haute résolution** si l'outil propose un upscale.
+4. **Recadre au format 1200 x 600** si nécessaire (Canva gratuit peut le faire).
+5. **Garde une cohérence visuelle** : mêmes couleurs sombres + accents néon.
+
+## Exemple d'image de référence IA Factory
+
+Pour garder la cohérence avec le site, utilise ces couleurs :
+- Fond : #05050f à #0a0a1f
+- Violet : #a78bfa
+- Bleu : #60a5fa
+- Cyan : #22d3ee
+- Texte : blanc
+
+---
+
+Générés par IA Factory — https://ia-factory-seven.vercel.app
