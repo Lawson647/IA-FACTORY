@@ -1,38 +1,41 @@
-# Module 1 — Qu'est-ce qu'un agent IA ? (6 minutes)
+# Module 1 — Introduction (7 minutes)
 
 ## Contexte visuel
-Face caméra de Guillaume, fond professionnel avec logo IA Factory discret.
+Face caméra + avatar en bas à droite. Fond dégradé sombre IA Factory.
 
 ## Script
 
-Bonjour et bienvenue dans cette formation "Créer ton premier agent IA".
+Tu passes combien de temps chaque semaine à faire des tâches qui auraient pu être faites par un robot ?
 
-Je suis Guillaume, fondateur d'IA Factory.
+Répondre aux mêmes questions par email. Qualifier des demandes de devis. Préparer des comptes-rendus. Relancer des prospects. Remplir des tableaux.
 
-Aujourd'hui, on va créer ensemble ton premier agent IA. Pas un chatbot basique. Pas un gadget. Un agent qui fait réellement quelque chose pour toi automatiquement.
+Moi, j'en passais facilement 4 à 5 heures par semaine.
 
-Mais d'abord, clarifions une question essentielle : c'est quoi exactement un agent IA ?
+Puis j'ai construit mon premier agent IA.
 
-Un agent IA, c'est un petit assistant intelligent capable de :
-1. Recevoir une information
-2. La comprendre
-3. Prendre une décision ou effectuer une action
-4. Te notifier du résultat
+Un agent, c'est simple : c'est une suite d'étapes qui se déclenche automatiquement, qui comprend une information, qui prend une décision avec l'IA, et qui agit toute seule.
 
-Contrairement à ChatGPT où tu poses une question et tu attends la réponse, un agent travaille en arrière-plan. Il peut être déclenché automatiquement.
+Par exemple : un prospect remplit un formulaire sur mon site. L'agent lit sa demande, pose 3 questions complémentaires par email, analyse les réponses, et me prépare un récap qualifié dans mon Slack.
 
-Par exemple :
-- Un agent qui reçoit un email de demande de devis, pose 3 questions au prospect, puis t'envoie un récapitulatif.
-- Un agent qui relance tes leads froids chaque semaine.
-- Un agent qui rédige un brouillon de compte-rendu après chaque réunion.
+Résultat : je ne perds plus de temps sur les mauvais leads, et je gagne du temps sur les bons.
 
-Un agent a trois composants :
-- Un déclencheur : qu'est-ce qui lance l'agent ?
-- Un traitement : qu'est-ce que l'IA fait ?
-- Une action : qu'est-ce qui se passe ensuite ?
+Dans cette formation, on va construire ensemble ton premier agent IA. Sans coder. Avec un outil no-code appelé n8n.
 
-Dans cette formation, on va construire un agent simple avec ces trois composants. Tu n'as pas besoin de savoir coder. On utilisera des outils visuels comme n8n, Make ou Zapier, ou même un simple prompt système bien construit.
+À la fin, tu auras un agent qui fonctionne vraiment, que tu pourras connecter à tes outils du quotidien : email, Google Sheets, Slack, Airtable.
 
-À la fin, tu auras un agent opérationnel pour une tâche réelle de ton activité.
+C'est parti.
 
-Prêt ? On passe à la suite.
+## Éléments à l'écran
+
+- Titre : "Créer ton premier agent IA"
+- Sous-titre : "Sans coder, en 5 modules"
+- Schéma simple : Déclencheur → Traitement IA → Action
+- Logo IA Factory discret en bas à droite
+
+## Références visuelles
+- Afficher un exemple visuel du workflow n8n
+- Montrer un email envoyé automatiquement par un agent
+- Montrer une notification Slack reçue
+
+## Exercice demandé à la fin
+Note 3 tâches répétitives que tu fais au moins 2 fois par semaine.

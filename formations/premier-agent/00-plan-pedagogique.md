@@ -1,59 +1,71 @@
-Titre: "Créer ton premier agent IA" — 5 modules pour automatiser une tâche réelle
-Sous-titre: De zéro à un agent IA opérationnel. Même si tu ne sais pas coder.
+# Formation : Créer ton premier agent IA (sans coder)
 
----
+## Objectif pédagogique
+À l'issue de cette formation, l'apprenant sera capable d'identifier une tâche répétitive à automatiser, de construire un premier agent IA avec un outil no-code (n8n, Make ou équivalent), et de le mettre en production pour gagner du temps chaque semaine.
 
-Public cible:
-- Indépendants et freelances qui veulent automatiser une tâche répétitive
-- PME qui veulent un agent simple pour un processus clé
-- Formateurs et coaches curieux des agents IA
+## Public cible
+- Indépendants, freelances, auto-entrepreneurs
+- TPE / PME : dirigeants, commerciaux, assistants
+- Formateurs, coaches, consultants qui veulent automatiser une partie de leur admin
 
----
+## Prérequis
+- Avoir suivi "10 prompts pour gagner 2h par jour" ou maîtriser les bases des prompts
+- Avoir un accès à ChatGPT, Claude ou Gemini
+- Disposer d'un compte gratuit n8n.cloud ou Make.com
+- Aucune compétence en code requise
 
-Objectif:
-À la fin de cette formation, l'apprenant aura créé un agent IA fonctionnel capable de traiter une tâche simple de son activité (ex: qualifier une demande de devis, répondre à une FAQ, relancer un prospect).
+## Durée totale
+- 5 modules × 7 à 10 minutes = environ 40 minutes de vidéo
+- Exercices pratiques : 30 minutes
+- Total : environ 1h15
 
----
+## Structure des modules
 
-Modules:
-1. Qu'est-ce qu'un agent IA ? (6 min)
-   - Différence entre chatbot et agent
-   - Exemples concrets d'agents pour indépendants/PME
-   - Les 3 composants : déclencheur, traitement, action
+### Module 1 — Introduction (7 min)
+- Promesse de la formation
+- Qu'est-ce qu'un agent IA et en quoi ça diffère d'un simple prompt
+- Exemple concret d'agent qui gagne 2h par semaine
+- Ce qu'on va construire ensemble
 
-2. Choisir sa première tâche à automatiser (7 min)
-   - Critères : répétitive, structurée, à forte valeur
-   - 5 idées de tâches faciles à automatiser
-   - Exercice : identifier SA tâche
+### Module 2 — Choisir sa première tâche à automatiser (8 min)
+- Les 3 critères d'une bonne tâche : répétitive, structurée, à forte valeur
+- 5 idées de premières tâches faciles à automatiser
+- Exercice : auditer ses propres tâches
 
-3. Construire l'agent pas à pas (12 min)
-   - Choix de l'outil : n8n, Make, Zapier, ou simple prompt système
-   - Rédaction du prompt système
-   - Connexion aux outils existants (email, CRM, calendrier)
-   - Test avec un cas réel
+### Module 3 — Construire l'agent pas à pas (12 min)
+- Présentation de n8n.cloud (interface, noeuds, connexions)
+- Déclencheur : réception d'un email ou d'un formulaire
+- Traitement : qualification des informations avec un prompt IA
+- Action : envoi d'une notification Slack, email ou création d'une ligne Airtable
+- Test en direct
 
-4. Sécuriser et fiabiliser l'agent (8 min)
-   - Gestion des erreurs
-   - Limites de l'agent
-   - Quand faire intervenir un humain
-   - Monitoring simple
+### Module 4 — Connecter l'agent à tes outils (8 min)
+- Connecter Gmail, Google Sheets, Airtable, Slack
+- Gérer les erreurs et les cas limites
+- Sécuriser les accès et les tokens
+- Exemple d'agent de qualification de demande de devis
 
-5. Déploiement et prochaines étapes (7 min)
-   - Mise en ligne de l'agent
-   - Documentation rapide
-   - Mesurer le temps gagné
-   - Idées d'agents supplémentaires
+### Module 5 — Mise en production et routine (5 min)
+- Activer l'agent en production
+- Surveiller les exécutions
+- Améliorer l'agent au fil du temps
+- Prochaines étapes : agent plus avancé, communauté Skool
 
----
+## Modalités pédagogiques
+- Vidéos courtes et actionnables avec screencasts
+- Fichiers téléchargeables : carnet de 20 prompts agents, fiches récap
+- Quiz de 10 questions en fin de formation
+- Certificat de participation (si Qualiopi / portage en place)
 
-Livrables:
-- 5 modules vidéo (~40 min)
-- Template de prompt système
-- Checklist de création d'agent
-- 3 exemples d'agents clés en main
-- Fiche de choix d'outil
+## Indicateurs d'évaluation
+- Quiz : 7/10 minimum pour valider
+- Exercice final : décrire un agent IA à construire pour son propre métier
+
+## Livrables de production
+- 5 scripts de vidéo
+- Carnet de 20 prompts pour agents IA
+- Fiches récap par module
 - Quiz final
-
----
-
-Prix suggéré: 79€ seul / inclus dans le Pack IA Factory 149€
+- Page de vente
+- Instructions HeyGen
+- PDFs téléchargeables

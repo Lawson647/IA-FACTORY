@@ -1,95 +1,106 @@
 # Fiches récap — Pipeline de contenu IA
 
-## IA Factory — Formation pratique
-
----
-
-## La routine hebdomadaire de 1h
-
-### Lundi — Planification (20 min)
-1. Relire les performances de la semaine passée
-2. Choisir 3 sujets prioritaires
-3. Générer les angles avec l'IA
-
-### Mardi/Mercredi — Production (30 min)
-1. Rédiger 2 posts LinkedIn
-2. Rédiger 1 newsletter ou article
-3. Créer 1 carrousel ou visuel
-
-### Jeudi — Programmation (10 min)
-1. Programmer LinkedIn
-2. Programmer newsletter
-3. Noter la date de publication
-
----
-
-## Le prompt idéal pour générer des idées
+## Fiche 1 — Le pipeline en 4 étapes
 
 ```
-Tu es un expert de [mon domaine].
-Mon public cible : [description].
-Mes objectifs de contenu : [éduquer / vendre / recruter].
-Propose-moi 10 idées de contenu LinkedIn pour la semaine du [date].
-Pour chaque idée, donne :
-- Le titre accrocheur
-- Le problème abordé
-- La promesse
-- Le format (post / carrousel / vidéo)
+IDÉES → RÉDACTION → VISUELS → PROGRAMMATION
+  20min    45min       15min       30min
 ```
 
+**Total : environ 2 heures pour 1 mois de contenu.**
+
+## Fiche 2 — Critères d'une bonne idée de contenu
+
+| Critère | Pourquoi |
+|---------|----------|
+| **Utile pour ton audience** | Elle aide à résoudre un problème |
+| **En lien avec ton expertise** | Elle renforce ta crédibilité |
+| **Actionnable** | Le lecteur peut appliquer rapidement |
+| **Répétable** | Elle peut devenir un format régulier |
+
+## Fiche 3 — Le prompt de génération d'idées
+
+```
+Tu es un rédacteur marketing spécialisé dans [ton secteur].
+Mon audience est [profil].
+Mon objectif est [générer des leads / éduquer / vendre].
+Mes 3 thématiques sont : [thème 1], [thème 2], [thème 3].
+Génère 30 idées de contenu pour [LinkedIn / blog / newsletter].
+Donne pour chacune : titre, format, accroche, CTA.
+Classer par semaine.
+```
+
+## Fiche 4 — Les 5 formats de posts LinkedIn
+
+| Format | Usage |
+|--------|-------|
+| **Apprentissage** | Partager des découvertes |
+| **Erreur** | Raconter un échec et la leçon |
+| **Framework** | Donner une méthode en étapes |
+| **Résultat** | Prouver par un chiffre |
+| **Opinion** | Prendre position sur un sujet |
+
+## Fiche 5 — Le prompt de rédaction LinkedIn
+
+```
+Tu es un rédacteur LinkedIn expert pour [ton secteur].
+Mon audience est [profil].
+Mon ton est [pédagogique / direct / inspirant / technique].
+Voici l'idée : [titre + angle].
+Rédige un post de 150 mots max avec accroche, 3-5 lignes courtes, point de vue personnel, CTA, 3 hashtags.
+```
+
+## Fiche 6 — Règles d'un bon post LinkedIn
+
+- ✅ Moins de 150 mots
+- ✅ Phrases courtes
+- ✅ Une accroche qui stoppe le scroll
+- ✅ Un point de vue ou une anecdote
+- ✅ Un appel à l'action
+- ✅ 3 hashtags pertinents
+- ❌ Pas de jargon inutile
+- ❌ Pas de longs paragraphes
+- ❌ Pas de promotion directe en premier
+
+## Fiche 7 — Outils recommandés
+
+| Usage | Outil | Gratuit ? |
+|-------|-------|-----------|
+| Idées + rédaction | ChatGPT / Claude | Oui (version gratuite) |
+| Visuels simples | Canva | Oui |
+| Visuels IA | Ideogram / Leonardo | Oui (crédits limités) |
+| Planification | Notion / Google Sheets | Oui |
+| Publication planifiée | Buffer / Later / Metricool | Freemium |
+| Automatisation | Make / n8n | Freemium |
+
+## Fiche 8 — Routine hebdomadaire
+
+**30 minutes par semaine :**
+1. Vérifier le planning de la semaine
+2. Publier manuellement ou confirmer les posts programmés
+3. Répondre aux commentaires des 3 derniers jours
+4. Analyser les 2 meilleurs posts de la semaine
+5. Ajuster le calendrier de la semaine suivante
+
+## Fiche 9 — Indicateurs à suivre
+
+| Indicateur | Objectif |
+|------------|----------|
+| Publications / mois | 12 minimum |
+| Vues moyennes par post | Progression sur 3 mois |
+| Taux d'engagement | Likes + commentaires |
+| Messages / leads | 1 à 3 par mois au départ |
+| Temps passu00e9 | Diminuer au fil du temps |
+
+## Fiche 10 — Calendrier type sur 1 mois
+
+| Semaine | Lundi | Mercredi | Vendredi |
+|---------|-------|----------|----------|
+| 1 | Post apprentissage | Carrousel framework | Post résultat |
+| 2 | Post opinion | Post erreur | Carrousel outils |
+| 3 | Post résultat | Post apprentissage | Post opinion |
+| 4 | Carrousel méthode | Post erreur | Post CTA offre |
+
 ---
 
-## Template de post LinkedIn
-
-**Accroche (1-2 lignes)**  
-Question ou constat qui interpelle.
-
-**Problème (2-3 lignes)**  
-Décrire la douleur sans jargon.
-
-**Solution (3-4 lignes)**  
-Conseil actionnable, facile à appliquer.
-
-**Preuve (1-2 lignes)**  
-Exemple concret, chiffre ou retour d'expérience.
-
-**CTA (1 ligne)**  
-Question ouverte pour engager la discussion.
-
----
-
-## Template de newsletter
-
-1. **Sujet** : clair, avec bénéfice
-2. **Introduction** : 2-3 lignes sur le pourquoi
-3. **Partie 1** : un conseil actionnable
-4. **Partie 2** : un exemple concret
-5. **Partie 3** : une ressource ou outil
-6. **Conclusion** : CTA simple (répondre, cliquer, essayer)
-
----
-
-## 5 formats de contenu à alterner
-
-| Format | Objectif | Outil |
-|--------|----------|-------|
-| Post texte court | Engagement | LinkedIn |
-| Carrousel 5 slides | Valeur pédagogique | Canva / Gamma |
-| Vidéo 60s | Proximité | Smartphone |
-| Newsletter | Profondeur | Mailchimp / Brevo |
-| Article long | SEO / crédibilité | Blog / LinkedIn |
-
----
-
-## Les 3 indicateurs à suivre
-
-1. **Consistance** : combien de posts par semaine ?
-2. **Engagement** : commentaires et partages (pas likes seuls)
-3. **Conversion** : messages privés, inscriptions, ventes
-
----
-
-## Règle d'or
-
-Mieux vaut publier **3 posts corrects par semaine**  
-que **1 post parfait par mois**.
+IA Factory — Formation "Pipeline de contenu IA"

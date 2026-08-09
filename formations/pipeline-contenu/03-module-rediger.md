@@ -1,60 +1,69 @@
-# Module 3 — Rédiger rapidement avec l'IA (10 minutes)
+# Module 3 — Rédiger 12 posts LinkedIn en 45 minutes (10 minutes)
 
 ## Contexte visuel
-Screencast de ChatGPT avec génération de posts LinkedIn.
+Screencast ChatGPT/Claude avec un document de posts. Avatar en bas à droite.
 
 ## Script
 
-Tu as maintenant un calendrier avec 12 idées. On va transformer chaque idée en contenu rédigé.
+Maintenant qu'on a 30 idées et un calendrier de 12 posts, on va les rédiger.
 
-### Template LinkedIn
+Non, pas à la main. Avec un prompt spécifique.
 
-```
-Tu es un rédacteur LinkedIn.
-Rédige un post de [180 à 250 mots] sur [sujet].
-Audience : [profil].
-Objectif : [objectif].
-Ton : [ton].
-Structure : accroche, problème, solution, preuve, appel à l'action.
-Ajoute 3 hashtags pertinents.
-```
-
-### Template newsletter
+### Le prompt de rédaction LinkedIn
 
 ```
-Tu es un rédacteur de newsletter.
-Rédige une newsletter sur [sujet].
-Audience : [profil].
-Objectif : [éduquer / vendre / fidéliser].
-Structure : objet accrocheur, intro de 50 mots, 3 sections, conclusion avec CTA.
-Ton : [ton].
+Tu es un rédacteur LinkedIn expert pour [ton secteur].
+Mon audience est [profil cible].
+Mon ton est [pédagogique / direct / inspirant / technique].
+Voici l'idée de post : [titre + angle].
+Rédige un post LinkedIn de 150 mots maximum avec :
+- Une accroche qui stoppe le scroll
+- 3 à 5 lignes courtes au milieu
+- Un point de vue ou une expérience personnelle
+- Un appel à l'action à la fin
+- 3 hashtags pertinents
 ```
 
-### Template article de blog
+### Adapter le ton à ta cible
 
-```
-Tu es un rédacteur web SEO.
-Rédige un article de [800 mots] sur [sujet].
-Public : [profil].
-Structure : intro, 4 parties avec sous-titres, conclusion, appel à l'action.
-Utilise un langage simple et des phrases courtes.
-```
+Si tu parles à des indépendants : sois direct et concret.
+Si tu parles à des dirigeants : sois synthétique et orienté résultat.
+Si tu parles à des débutants : explique sans jargon.
 
-### Adapter le ton à ta marque
+### Les 5 formats de posts qui fonctionnent
 
-L'IA va proposer un ton par défaut. Tu peux l'ajuster avec des instructions comme :
-- "Adopte un ton décalé mais professionnel"
-- "Sois pédagogique, comme si tu expliquais à un ami"
-- "Utilise un vocabulaire simple, sans jargon technique"
+1. **Le post apprentissage** : "Voici 3 choses que j'ai apprises cette semaine..."
+2. **Le post erreur** : "J'ai perdu 2h hier à cause de cette erreur..."
+3. **Le post framework** : "Voici ma méthode en 5 étapes..."
+4. **Le post résultat** : "Comment j'ai gagné X avec l'IA..."
+5. **Le post opinion** : "Tout le monde dit X. Voici pourquoi je ne suis pas d'accord..."
 
-### Variantes et recyclage
+### Générer les carrousels
 
-Une idée = plusieurs formats. Demande à l'IA :
-"À partir du post LinkedIn ci-dessus, rédige :
-- un thread Twitter/X
-- 3 phrases d'accroche alternatives
-- une newsletter de 200 mots"
+Pour un carrousel, demande à l'IA :
+- 5 slides maximum
+- 1 idée par slide
+- 1 phrase courte par slide
+- Un visuel suggéré pour chaque slide
 
-Ton contenu va beaucoup plus loin avec le même effort de départ.
+Tu auras le texte prêt. Il te restera juste à créer le visuel.
 
-Dans le prochain module, on s'attaque aux visuels et formats courts.
+### Routine de rédaction
+
+Prends ton calendrier de 12 idées. Pour chaque idée, génère 1 post.
+Ne cherche pas la perfection. Cherche la régularité.
+
+En 45 minutes, tu as 12 posts rédigés.
+
+## Éléments à l'écran
+
+- Exemple de prompt de rédaction
+- Avant/après d'un post rédigé par l'IA
+- Template des 5 formats de posts
+
+## Exercice
+Rédige 4 posts LinkedIn à partir de ton calendrier. Utilise 2 formats différents.
+
+## Références
+- 10 prompts pour gagner 2h/jour, module 5
+- module 2 de cette formation pour le calendrier

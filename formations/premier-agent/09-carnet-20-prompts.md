@@ -1,155 +1,382 @@
-# Carnet de prompts — Créer ton premier agent IA
+# Carnet de 20 prompts pour construire des agents IA
 
-## IA Factory — 20 prompts pour automatiser tes tâches
+## Comment utiliser ce carnet
 
----
+Chaque prompt est conçu pour être collé dans un noeud "Chat Model" ou "OpenAI" de n8n, Make ou un équivalent.
 
-### 1. Prompt système générique pour un agent
-**Objectif :** définir le rôle et la mission de l'agent.
-
-**Template :**
-```
-Tu es un [rôle] spécialisé dans [domaine].
-Ta mission est de [tâche principale].
-Tu reçois en entrée : [données].
-Tu dois produire en sortie : [résultat attendu].
-Reste factuel, concis et actionnable.
-```
+Avant chaque prompt, remplace les éléments entre crochets par tes propres informations.
 
 ---
 
-### 2. Agent de qualification de devis
-**Objectif :** qualifier une demande entrante.
+## Prompt 1 : Qualifier une demande de devis
 
-**Template :**
 ```
-Tu es un assistant commercial. Analyse cette demande de devis :
-[Nom, activité, besoin, budget, délai].
-Attribue un score de 1 à 5 (1 = peu qualifié, 5 = très qualifié).
-Rédige un email de 3 lignes pour confirmer le prochain RDV.
+Tu es un assistant commercial pour [ton activité].
+Voici un email reçu d'un prospect :
+
+{{$json["body"]}}
+
+Analyse cette demande et réponds avec :
+1. Type de besoin (chiffrer parmi : [liste de services])
+2. Urgence (faible / moyenne / forte)
+3. Budget estimé si mentionné
+4. Questions manquantes à poser au prospect (3 maximum)
+5. Score de qualité sur 10
+
+Sois direct, professionnel, en français.
 ```
 
 ---
 
-### 3. Agent de relance de leads
-**Objectif :** relancer un prospect inactif.
+## Prompt 2 : Relancer un prospect inactif
 
-**Template :**
 ```
-Tu es un commercial bienveillant.
-Prospect : [nom], dernier contact il y a [X] jours.
-Contexte : [rappel de l'échange].
-Rédige un email court (max 100 mots) pour relancer sans pression.
-Propose 2 créneaux de RDV.
+Tu es un commercial francophone. Tu rédiges un email de relance doux pour un prospect qui n'a pas répondu depuis [nombre] jours.
+
+Contexte :
+- Prospect : [nom ou secteur]
+- Premier contact : [objet de la première prise de contact]
+- Ton : professionnel mais chaleureux
+- Longueur : 80 mots maximum
+
+Ne sois pas agressif. Propose une date pour un appel de 15 minutes.
 ```
 
 ---
 
-### 4. Agent de compte-rendu de réunion
-**Objectif :** transformer une transcription en résumé actionnable.
+## Prompt 3 : Compte-rendu de réunion structuré
 
-**Template :**
 ```
-Voici la transcription d'une réunion :
-[transcription].
+Tu es un assistant exécutif.
+Voici la transcription brute d'une réunion :
+
+{{$json["transcription"]}}
+
+Génère un compte-rendu structuré avec :
+- Date et participants
+- 3 à 5 points clés
+- Décisions prises
+- Actions à venir avec responsable et échéance
+- Points de vigilance
+
+Format : markdown clair.
+```
+
+---
+
+## Prompt 4 : Répondre aux questions fréquentes
+
+```
+Tu es le support client de [ton entreprise].
+Voici la question reçue :
+
+{{$json["question"]}}
+
+Voici la base de connaissances :
+[liste de 5 à 10 réponses types]
+
+Réponds à la question de manière claire et concise en 3 à 5 lignes.
+Si la réponse n'est pas dans la base de connaissances, dis : "Je vais transmettre ta question à l'équipe et nous te revenons sous 24h."
+```
+
+---
+
+## Prompt 5 : Préparer un briefing client
+
+```
+Tu prépares un briefing avant un appel avec un client.
+
+Infos disponibles :
+- Nom : {{$json["nom"]}}
+- Entreprise : {{$json["entreprise"]}}
+- Dernier échange : {{$json["dernier_echange"]}}
+- Service intéressé : {{$json["service"]}}
+
+Génère :
+1. Un récap en 3 lignes
+2. 3 questions pertinentes à poser pendant l'appel
+3. 1 proposition de valeur adaptée
+4. 1 risque ou objection à anticiper
+```
+
+---
+
+## Prompt 6 : Classer automatiquement les emails entrants
+
+```
+Tu es un assistant email. Classe l'email suivant dans une seule catégorie :
+
+Email : {{$json["body"]}}
+Objet : {{$json["subject"]}}
+
+Catégories possibles :
+- Demande de devis
+- Support client
+- Partenariat
+- Facturation
+- Spam / Non pertinent
+- Relance commerciale
+
+Réponds uniquement par le nom de la catégorie, sans explication.
+```
+
+---
+
+## Prompt 7 : Extraire les informations d'un formulaire
+
+```
+Tu extrais les informations d'une demande envoyée via formulaire.
+
+Contenu brut : {{$json["raw_data"]}}
+
+Extrais et formate en JSON :
+{
+  "nom": "",
+  "email": "",
+  "entreprise": "",
+  "besoin_principal": "",
+  "budget": "",
+  "urgence": "",
+  "questions_complementaires": []
+}
+
+Si une information est manquante, indique "non précisé".
+```
+
+---
+
+## Prompt 8 : Rédiger une proposition commerciale rapide
+
+```
+Tu es un commercial pour [ton activité].
+Un prospect nommé {{$json["nom"]}} de l'entreprise {{$json["entreprise"]}} demande un devis pour : {{$json["besoin"]}}.
+
+Rédige un email de proposition en 150 mots maximum avec :
+- Une phrase de contexte
+- La solution proposée
+- Le tarif indicatif : [ton tarif]
+- L'étape suivante
+- Une signature professionnelle
+
+Ton : clair, confiant, sans jargon.
+```
+
+---
+
+## Prompt 9 : Résumé d'article pour veille
+
+```
+Tu fais de la veille pour [ton domaine].
+Voici un article :
+
+{{$json["article"]}}
+
+Résume-le en :
+- 1 phrase principale
+- 3 points clés
+- 1 action ou réflexion à retenir
+
+Longueur totale : 80 mots maximum.
+```
+
+---
+
+## Prompt 10 : Générer un sondage de satisfaction
+
+```
+Tu es responsable de la relation client.
+Après [ton service], tu envoies un court sondage de satisfaction.
+
+Rédige 5 questions maximum :
+- 3 questions à notes de 1 à 5
+- 1 question ouverte
+- 1 question de recommandation (NPS)
+
+Ton : simple et rapide à remplir.
+```
+
+---
+
+## Prompt 11 : Analyser un lead et proposer un score
+
+```
+Tu es un expert en qualification de leads B2B.
+Voici les données d'un lead :
+
+{{$json["lead_data"]}}
+
+Attribue un score de 0 à 100 et justifie en 3 lignes.
+
+Score :
+- 80-100 : lead chaud, contacter rapidement
+- 50-79 : lead tiède, relancer par email
+- 0-49 : lead froid, mettre en nurturing
+```
+
+---
+
+## Prompt 12 : Créer une série d'emails de bienvenue
+
+```
+Tu es un expert en marketing automation.
+Tu crées une série de 3 emails de bienvenue pour nouveaux inscrits à [ton offre].
+
+Public cible : [description]
+Objectif : [objectif]
+
+Pour chaque email, donne :
+- Objet
+- Accroche
+- Corps du message (100 mots max)
+- Appel à l'action
+
+Espace les emails à J+0, J+3 et J+7.
+```
+
+---
+
+## Prompt 13 : Transcrire une voix-note en tâches
+
+```
+Tu reçois une voix-note d'un entrepreneur. Voici la transcription :
+
+{{$json["transcription"]}}
+
 Extrais :
-- Les décisions prises
-- Les actions à faire (avec responsable et délai)
-- Les points en attente
-Formate en tableau.
+1. Les tâches à faire
+2. Les personnes mentionnées
+3. Les échéances
+4. Les priorités
+
+Formate en liste à puces claire.
 ```
 
 ---
 
-### 5. Agent FAQ
-**Objectif :** répondre aux questions fréquentes automatiquement.
+## Prompt 14 : Répondre à une critique en ligne
 
-**Template :**
 ```
-Tu es l'assistant client de [entreprise].
-Voici la question du client : [question].
-Voici la base de connaissances : [texte FAQ].
-Réponds en 2 phrases maximum.
-Si la réponse n'est pas dans la base, dis : "Je transmets votre demande à l'équipe."
-```
+Tu es le community manager de [ton entreprise].
+Voici un avis client négatif :
 
----
+{{$json["avis"]}}
 
-### 6. Agent de briefing client
-**Objectif :** préparer un appel de vente.
-
-**Template :**
-```
-Tu es un commercial B2B.
-Client : [nom, entreprise, secteur].
-Projet évoqué : [besoin].
-Objectif de l'appel : [objectif].
-Prépare 5 questions ouvertes et une proposition de valeur en 2 phrases.
+Rédige une réponse professionnelle, empathique et concise en 4 lignes maximum.
+Propose une solution concrète ou une prise de contact.
 ```
 
 ---
 
-### 7. Agent de collecte de témoignages
-**Objectif :** générer un email pour récupérer un avis client.
+## Prompt 15 : Identifier les tâches répétitives dans un texte
 
-**Template :**
 ```
-Tu es responsable relation client.
-Client : [nom], projet : [description], résultat : [chiffre clé].
-Rédige un email demandant un témoignage de 2-3 phrases.
-Mentionne que cela aide d'autres [profils cibles].
-```
+Tu es un consultant en productivité.
+Voici la description d'une semaine de travail :
 
----
+{{$json["description"]}}
 
-### 8. Agent de réponse aux avis
-**Objectif :** répondre aux avis Google/Trustpilot.
-
-**Template :**
-```
-Tu es le fondateur de [entreprise].
-Voici un avis client : [avis].
-Note : [1-5 étoiles].
-Rédige une réponse professionnelle et chaleureuse en 3 phrases maximum.
+Identifie les 5 tâches les plus répétitives et classe-les par potentiel d'automatisation (facile / moyen / difficile).
+Pour chacune, suggère un outil no-code adapté.
 ```
 
 ---
 
-### 9. Agent de veille concurrentielle
-**Objectif :** suivre les offres des concurrents.
+## Prompt 16 : Valider la conformité d'un document
 
-**Template :**
 ```
-Tu es un analyste marché.
-Voici le site d'un concurrent : [texte copié].
-Identifie : offres, prix, messages clés, différenciateurs.
-Résume en 5 points comparatifs.
-```
+Tu es un assistant juridique junior pour [ton secteur].
+Voici un document reçu :
 
----
+{{$json["document"]}}
 
-### 10. Agent de validation de contenu
-**Objectif :** vérifier un post avant publication.
+Vérifie s'il contient ces éléments obligatoires :
+[liste des éléments]
 
-**Template :**
-```
-Tu es un rédacteur marketing.
-Voici un post LinkedIn : [texte].
-Vérifie : clarté, ton, appel à l'action, fautes.
-Donne 3 améliorations concrètes.
+Pour chaque élément, indique : Présent / Manquant / Partiel.
+Résume les actions à faire en 3 lignes maximum.
 ```
 
 ---
 
-[... 10 autres prompts de la même structure pour atteindre 20]
+## Prompt 17 : Planifier automatiquement une réunion
 
-### 11. Agent de synthèse de document long
-### 12. Agent de traduction professionnelle
-### 13. Agent de génération de titres
-### 14. Agent de reformulation selon un ton
-### 15. Agent de création d'email de prospection
-### 16. Agent de suivi après-vente
-### 17. Agent de planification de RDV
-### 18. Agent d'analyse de feedback
-### 19. Agent de génération de description produit
-### 20. Agent de création de questions FAQ
+```
+Tu es un assistant de direction.
+Tu dois proposer 3 créneaux de réunion de 30 minutes entre {{$json["date_debut"]}} et {{$json["date_fin"]}}.
+
+Contraintes :
+- Jours ouvrés uniquement
+- Entre 9h et 18h
+- Éviter les lundis matin et vendredis après-midi
+
+Formate les propositions en phrases courtes.
+```
+
+---
+
+## Prompt 18 : Générer un rapport hebdomadaire
+
+```
+Tu es un analyste opérationnel.
+Voici les données de la semaine :
+
+{{$json["data"]}}
+
+Rédige un rapport hebdomadaire en 200 mots avec :
+- Les 3 indicateurs clés
+- Ce qui a bien marché
+- Ce qui doit être amélioré
+- L'objectif prioritaire de la semaine prochaine
+```
+
+---
+
+## Prompt 19 : Créer une fiche produit
+
+```
+Tu es un rédacteur web pour [ton activité].
+Voici les informations brutes d'une offre :
+
+{{$json["offre"]}}
+
+Rédige une fiche produit claire avec :
+- Titre accrocheur
+- Description en 3 lignes
+- 3 bénéfices
+- Prix ou tarification
+- Appel à l'action
+
+Ton : professionnel et vendeur sans être agressif.
+```
+
+---
+
+## Prompt 20 : Analyse de conversation support
+
+```
+Tu es responsable support client.
+Voici un échange avec un client :
+
+{{$json["conversation"]}}
+
+Résume :
+- Problème principal
+- Sentiment du client
+- Solution apportée
+- Prochaine action recommandée
+- Note interne à garder sur le dossier
+```
+
+---
+
+## Conseils d'utilisation
+
+1. **Teste chaque prompt avant de l'automatiser.**
+2. **Ajuste le contexte** pour qu'il corresponde à ton métier.
+3. **Ajoute des exemples** dans le prompt si les résultats sont inconsistants.
+4. **Limite la longueur** de sortie pour garder des réponses exploitables.
+5. **Utilise des variables** `{{$json["champ"]}}` pour injecter les données reçues par l'agent.
+
+---
+
+IA Factory — Formation "Créer ton premier agent IA"
