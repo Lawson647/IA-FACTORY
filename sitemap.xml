@@ -281,4 +281,19 @@
     <lastmod>2026-08-07</lastmod>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/livre-blanc-ia-independants-tpe.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/formation-vibe-coding.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ia-factory-seven.vercel.app/outils-ia.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <priority>0.7</priority>
+  </url>
 </urlset>
