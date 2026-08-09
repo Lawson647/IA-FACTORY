@@ -1,0 +1,359 @@
+# Emails post-achat — Les 3 formations IA Factory
+
+---
+
+## Formation 1 : 10 prompts pour gagner 2h par jour
+
+### Email 1 — Accès immédiat
+
+**Objet :** 🎉 Bienvenue dans "10 prompts pour gagner 2h par jour"
+
+Corps :
+
+Bonjour [Prénom],
+
+Merci pour ton achat !
+
+Tu as maintenant un accès complet à la formation "10 prompts pour gagner 2h par jour".
+
+Voici comment commencer :
+
+1. Télécharge ton carnet de 50 prompts :
+   https://ia-factory-seven.vercel.app/downloads/carnet-50-prompts-ia.pdf
+
+2. Télécharge les fiches récap :
+   https://ia-factory-seven.vercel.app/downloads/fiches-recap-10-prompts.pdf
+
+3. Regarde le module 1 dès maintenant pour comprendre la méthode.
+
+Mon conseil : ne regarde pas tout d'un coup. Fais un module par jour et applique immédiatement le prompt du jour.
+
+Tu peux me contacter à guillaume@ia-factory.io pour toute question.
+
+Bonne formation !
+
+Guillaume
+IA Factory
+
+---
+
+### Email 2 — 3 jours après l'achat
+
+**Objet :** As-tu déjà gagné du temps avec ton premier prompt ?
+
+Corps :
+
+Bonjour [Prénom],
+
+Tu as commencé la formation "10 prompts pour gagner 2h par jour" il y a quelques jours.
+
+Si tu as déjà utilisé un des prompts, tu as peut-être déjà senti la différence.
+
+Voici 3 actions pour aller plus loin cette semaine :
+
+1. Choisis LA tâche que tu répètes le plus souvent.
+2. Prends le prompt dédié dans le carnet et teste-le 3 fois.
+3. Note le temps gagné à chaque utilisation.
+
+Petit défi : à la fin de la semaine, additionne les minutes économisées. Tu seras surpris.
+
+Si tu es bloqué, envoie-moi un email avec ta question. Je réponds personnellement.
+
+Guillaume
+
+---
+
+### Email 3 — 7 jours après l'achat
+
+**Objet :** Le module 5 va changer ta façon de créer du contenu
+
+Corps :
+
+Bonjour [Prénom],
+
+Si tu arrives au module 5, tu as déjà vu les prompts email, résumé et plan de contenu.
+
+Le module 5 est celui qui fait le plus de retours positifs : créer un plan de contenu en 5 minutes.
+
+Que tu sois sur LinkedIn, newsletter ou blog, ce prompt te sort un mois d'idées en quelques minutes.
+
+Teste-le et dis-moi ce que ça donne.
+
+Et si tu veux aller plus loin, la formation "Pipeline de contenu IA" reprend exactement ce module et le pousse jusqu'à la programmation automatique.
+
+Lien : https://ia-factory-seven.vercel.app/formation-pipeline-contenu.html
+
+À très vite,
+
+Guillaume
+
+---
+
+### Email 4 — 14 jours après l'achat
+
+**Objet :** Passer au niveau supérieur : Pack IA Factory
+
+Corps :
+
+Bonjour [Prénom],
+
+Tu as maintenant une bonne base avec les prompts.
+
+Si tu veux structurer vraiment ton usage de l'IA dans ton business, le Pack IA Factory regroupe les 3 formations :
+
+- 10 prompts pour gagner 2h par jour
+- Créer ton premier agent IA
+- Pipeline de contenu IA
+
+Prix du Pack : 149 € au lieu de 207 €.
+
+Lien : https://ia-factory-seven.vercel.app/pack-ia-factory.html
+
+Tu peux aussi me contacter si tu veux qu'on regarde ensemble ce qui te manque.
+
+Guillaume
+
+---
+
+## Formation 2 : Créer ton premier agent IA
+
+### Email 1 — Accès immédiat
+
+**Objet :** 🤖 Bienvenue dans "Créer ton premier agent IA"
+
+Corps :
+
+Bonjour [Prénom],
+
+Merci pour ton achat !
+
+Tu vas construire ton premier agent IA sans coder. Voici comment bien démarrer.
+
+1. Crée un compte gratuit sur n8n.cloud si ce n'est pas déjà fait :
+   https://n8n.io/cloud/
+
+2. Télécharge le carnet de 20 prompts pour agents IA :
+   https://ia-factory-seven.vercel.app/downloads/carnet-20-prompts-agent-ia.pdf
+
+3. Télécharge les fiches récap :
+   https://ia-factory-seven.vercel.app/downloads/fiches-recap-premier-agent-v2.pdf
+
+4. Regarde le module 1, puis le module 2 pour choisir ta première tâche.
+
+Mon conseil : prends une tâche simple et répétitive. Ne cherche pas à automatiser tout ton business d'un coup.
+
+Tu peux me contacter à guillaume@ia-factory.io pour toute question.
+
+Bonne construction !
+
+Guillaume
+IA Factory
+
+---
+
+### Email 2 — 3 jours après l'achat
+
+**Objet :** As-tu choisi ta première tâche à automatiser ?
+
+Corps :
+
+Bonjour [Prénom],
+
+L'étape la plus importante avant d'ouvrir n8n, c'est de choisir la bonne tâche.
+
+Si tu n'as pas encore fait l'exercice du module 2, fais-le maintenant.
+
+Prends une feuille et liste tes 5 tâches les plus répétitives. Coche celles qui sont :
+- répétitives
+- structurées
+- à forte valeur
+
+Celle qui a le plus de coches est probablement ta première victoire.
+
+Si tu hésites entre plusieurs, envoie-moi ta liste. Je te donne mon avis.
+
+Guillaume
+
+---
+
+### Email 3 — 7 jours après l'achat
+
+**Objet :** Module 3 : le moment où tout devient concret
+
+Corps :
+
+Bonjour [Prénom],
+
+Le module 3 est le cœur de la formation : on construit l'agent dans n8n.
+
+Si tu bloques sur un noeud ou une connexion, c'est normal. L'interface n8n peut intimider au début.
+
+Voici mes 3 conseils :
+1. Regarde le module 3 en une seule fois, sans essayer de faire en même temps.
+2. Puis refais-le en pause, en reproduisant chaque étape.
+3. Si ça ne marche pas, copie le workflow à partir des captures d'écran.
+
+Et surtout : n'hésite pas à m'envoyer une capture d'écran de ton erreur. Je t'aide.
+
+Guillaume
+
+---
+
+### Email 4 — 14 jours après l'achat
+
+**Objet :** Ton agent tourne ? Passons au suivant
+
+Corps :
+
+Bonjour [Prénom],
+
+Deux semaines après ton achat, ton premier agent devrait être en production ou presque.
+
+Si c'est le cas : bravo. Tu fais partie des 10% qui passent à l'action.
+
+Si ce n'est pas encore le cas : pas de panique. Reprends le module 3 ce week-end avec un café.
+
+Une fois que tu as un agent qui marche, tu peux en construire un deuxième. Puis un troisième.
+
+Et si tu veux accélérer, le Pack IA Factory te donne aussi la formation "Pipeline de contenu IA" pour automatiser ta communication.
+
+Lien : https://ia-factory-seven.vercel.app/pack-ia-factory.html
+
+À très vite,
+
+Guillaume
+
+---
+
+## Formation 3 : Pipeline de contenu IA
+
+### Email 1 — Accès immédiat
+
+**Objet :** 📝 Bienvenue dans "Pipeline de contenu IA"
+
+Corps :
+
+Bonjour [Prénom],
+
+Merci pour ton achat !
+
+Tu as maintenant un accès complet à la formation "Pipeline de contenu IA".
+
+Voici comment commencer :
+
+1. Télécharge le carnet de templates :
+   https://ia-factory-seven.vercel.app/downloads/carnet-templates-pipeline-contenu.pdf
+
+2. Télécharge les fiches récap :
+   https://ia-factory-seven.vercel.app/downloads/fiches-recap-pipeline-contenu-v2.pdf
+
+3. Avant de regarder les modules, définis ton objectif de contenu pour les 30 prochains jours :
+   - Générer des leads ?
+   - Éduquer ton audience ?
+   - Vendre un service ?
+
+4. Regarde le module 1, puis fais l'exercice du module 2.
+
+Mon conseil : bloque 2 heures dans ton agenda cette semaine pour faire ta première session complète.
+
+Tu peux me contacter à guillaume@ia-factory.io pour toute question.
+
+Bonne création !
+
+Guillaume
+IA Factory
+
+---
+
+### Email 2 — 3 jours après l'achat
+
+**Objet :** Ton premier calendrier éditorial est-il prêt ?
+
+Corps :
+
+Bonjour [Prénom],
+
+Après 3 jours, tu as normalement vu les modules 1 et 2.
+
+Si tu as généré tes 30 idées et choisi tes 12 meilleures, tu es déjà bien avancé.
+
+Si ce n'est pas encore fait, voici mon défi pour aujourd'hui :
+
+1. Ouvre ChatGPT ou Claude.
+2. Copie le prompt de génération d'idées.
+3. Génère 30 idées en 20 minutes.
+4. Sélectionne les 12 meilleures.
+
+Demain, on passe à la rédaction.
+
+Guillaume
+
+---
+
+### Email 3 — 7 jours après l'achat
+
+**Objet :** 12 posts rédigés : le vrai déclic
+
+Corps :
+
+Bonjour [Prénom],
+
+Si tu as suivi le module 3, tu as maintenant entre les mains 12 posts LinkedIn rédigés.
+
+Certains seront bons du premier jet. D'autres nécessiteront un petit ajustement.
+
+N'oublie pas : ce ne sont pas des copier-coller. Ce sont des brouillants de qualité que tu dois relire et personnaliser.
+
+Étape suivante : le module 4 pour créer les visuels. Puis le module 5 pour programmer.
+
+Si tu veux un retour sur 2 ou 3 de tes posts, envoie-les-moi. Je te donne mon avis.
+
+Guillaume
+
+---
+
+### Email 4 — 14 jours après l'achat
+
+**Objet :** Ton premier mois de contenu est-il programmé ?
+
+Corps :
+
+Bonjour [Prénom],
+
+Deux semaines après ton achat, tu devrais avoir :
+- 12 idées
+- 12 posts rédigés
+- 4 visuels de carrousel
+- Un calendrier programmé sur 1 mois
+
+Si c'est fait : félicitations. Tu as un système qui va te faire gagner un temps fou.
+
+Si ce n'est pas encore fait, prends 2 heures ce week-end. C'est le meilleur investissement que tu puisses faire pour ta visibilité.
+
+Et si tu veux aller encore plus loin, le Pack IA Factory inclut aussi les formations prompts et agent IA.
+
+Lien : https://ia-factory-seven.vercel.app/pack-ia-factory.html
+
+À très vite,
+
+Guillaume
+
+---
+
+## Variables à personnaliser
+
+- [Prénom] : prénom de l'acheteur
+- [Email] : email de l'acheteur
+- [Formation] : nom de la formation achetée
+- [Date achat] : date de l'achat
+
+## Conseils d'envoi
+
+1. Automatiser ces emails via n8n ou un outil d'email marketing (Brevo, MailerLite, ConvertKit).
+2. Envoyer l'email 1 immédiatement après l'achat.
+3. Espacer les suivants à J+3, J+7, J+14.
+4. Inclure toujours un lien vers le Pack IA Factory dans le dernier email.
+
+---
+
+IA Factory — https://ia-factory-seven.vercel.app
