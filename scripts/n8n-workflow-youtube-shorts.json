@@ -1,0 +1,118 @@
+{
+  "name": "IA Factory \u2014 Auto YouTube Shorts",
+  "nodes": [
+    {
+      "id": "trigger",
+      "name": "Nouvelle vid\u00e9o YouTube",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        250,
+        300
+      ],
+      "webhookId": "youtube-new-video",
+      "path": "youtube-new-video",
+      "responseMode": "responseNode",
+      "httpMethod": "POST"
+    },
+    {
+      "id": "download",
+      "name": "T\u00e9l\u00e9charger vid\u00e9o",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        450,
+        300
+      ],
+      "command": "yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' '{{ $json.videoUrl }}' -o '/tmp/youtube/{{ $json.videoId }}.mp4'"
+    },
+    {
+      "id": "generate",
+      "name": "G\u00e9n\u00e9rer Shorts",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        650,
+        300
+      ],
+      "command": "python3 /workspace/ia-factory/scripts/shorts_generator.py --input /tmp/youtube/{{ $json.videoId }}.mp4 --output /tmp/shorts/{{ $json.videoId }}/ --count 3 --duration 45"
+    },
+    {
+      "id": "upload",
+      "name": "Upload YouTube Shorts",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [
+        850,
+        300
+      ],
+      "method": "POST",
+      "url": "https://www.youtube.com/upload",
+      "headers": {},
+      "sendBinaryData": true,
+      "binaryPropertyName": "data"
+    },
+    {
+      "id": "notify",
+      "name": "Notifier sur Discord",
+      "type": "n8n-nodes-base.discord",
+      "typeVersion": 1,
+      "position": [
+        1050,
+        300
+      ],
+      "webhookUri": "https://discord.com/api/webhooks/..."
+    }
+  ],
+  "connections": {
+    "trigger": {
+      "main": [
+        [
+          {
+            "node": "download",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "download": {
+      "main": [
+        [
+          {
+            "node": "generate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "generate": {
+      "main": [
+        [
+          {
+            "node": "upload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "upload": {
+      "main": [
+        [
+          {
+            "node": "notify",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "timezone": "Europe/Paris"
+  }
+}
