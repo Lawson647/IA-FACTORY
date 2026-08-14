@@ -124,6 +124,83 @@ Site à tester : https://ia-factory-seven.vercel.app/
 - Les tokens sont dans `.env` du VPS et dans les variables Vercel.
 - L'agent Dev ne doit pas exposer le token Airtable ou GitHub.
 
+## Si l'agent ne répond pas dans Buzz
+
+### ✅ Option rapide — PC Windows
+
+Quand ton PC Windows est allumé, l'agent fonctionne.
+
+1. Ouvre **PowerShell**
+2. Tape :
+   ```powershell
+   hermes
+   ```
+3. Attends 10–20 secondes
+4. Rafraîchis Buzz : **Hermes IA Factory** passe au vert ✅
+
+### 🔧 Option avancée — VPS 24/7 (à finaliser)
+
+Objectif : faire tourner l'agent dans le container Docker `hermes-agent` du VPS pour ne pas dépendre du PC Windows.
+
+**État actuel :** le container `hermes-agent` n'a pas le module Python `buzz` nécessaire au relay. Il faut l'installer ou utiliser le bon container.
+
+**Commandes testées (à reprendre) :**
+
+```bash
+# Se connecter au VPS (Hostinger Terminal ou SSH root)
+docker exec -it hermes-agent bash
+
+# Configurer Hermes
+cat > ~/.hermes/config.yaml << 'EOF'
+model:
+  default_model: qwen2.5-coder:32b
+  default_provider: ollama
+
+providers:
+  ollama:
+    base_url: http://2.24.15.63:33227/v1
+    api_key: ""
+
+gateway:
+  enabled: true
+  workspace: factory-ia
+  relay_url: wss://factory-ia.communities.buzz.xyz
+
+surfaces: {}
+plugins: {}
+tools:
+  defaults: []
+EOF
+
+# Lancer en arrière-plan
+nohup hermes > /tmp/hermes-agent.log 2>&1 &
+
+# Vérifier les logs
+tail -50 /tmp/hermes-agent.log
+```
+
+**Bloqueur identifié :**
+```
+ModuleNotFoundError: No module named 'buzz'
+```
+
+**Pistes à creuser :**
+1. Installer le module depuis le repo NousResearch : `pip install git+https://github.com/NousResearch/hermes-agent.git`
+2. Chercher dans quel container Docker le module `buzz` est déjà présent (`docker exec ... python3 -c "import buzz"`)
+3. Contacter le support Nous Research / consulter la doc Hermes pour l'agent Buzz
+
+---
+
+## URLs importantes
+
+| Ressource | Lien |
+|---|---|
+| Buzz workspace | `factory-ia` |
+| Relay URL | `wss://factory-ia.communities.buzz.xyz` |
+| Ollama VPS | `http://2.24.15.63:33227/v1` |
+| Site IA Factory | https://ia-factory-seven.vercel.app/ |
+| Repo GitHub | https://github.com/Lawson647/IA-FACTORY |
+
 ---
 
 IA Factory — Configuration équipe d'agents Buzz
