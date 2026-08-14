@@ -138,20 +138,25 @@ Quand ton PC Windows est allumé, l'agent fonctionne.
 3. Attends 10–20 secondes
 4. Rafraîchis Buzz : **Hermes IA Factory** passe au vert ✅
 
-### 🔧 Option avancée — VPS 24/7 (à finaliser)
+### 🔧 Option avancée — VPS 24/7 (fonctionnel)
 
 Objectif : faire tourner l'agent dans le container Docker `hermes-agent` du VPS pour ne pas dépendre du PC Windows.
 
-**État actuel :** le container `hermes-agent` n'a pas le module Python `buzz` nécessaire au relay. Il faut l'installer ou utiliser le bon container.
+**⚠️ Important :** le gateway Hermes tourne sous l'utilisateur **`hermeswebui`**, pas `root`. La config doit être créée dans `/home/hermeswebui/.hermes/config.yaml`.
 
-**Commandes testées (à reprendre) :**
+**Commandes :**
 
 ```bash
-# Se connecter au VPS (Hostinger Terminal ou SSH root)
+# 1. Se connecter au container hermes-agent en root
 docker exec -it hermes-agent bash
 
-# Configurer Hermes
-cat > ~/.hermes/config.yaml << 'EOF'
+# 2. Tuer le gateway actuel pour le relancer avec la nouvelle config
+ps aux | grep hermes
+# repérer le PID de "hermes gateway run --replace"
+kill -9 <PID>
+
+# 3. Créer la config en tant qu'hermeswebui
+su - hermeswebui -c "cat > /home/hermeswebui/.hermes/config.yaml << 'EOF'
 model:
   default_model: qwen2.5-coder:32b
   default_provider: ollama
@@ -170,24 +175,37 @@ surfaces: {}
 plugins: {}
 tools:
   defaults: []
-EOF
+EOF"
 
-# Lancer en arrière-plan
-nohup hermes > /tmp/hermes-agent.log 2>&1 &
+# 4. Relancer le gateway en tant qu'hermeswebui
+su - hermeswebui -c 'nohup hermes gateway run > /tmp/hermes-gateway.log 2>&1 &'
 
-# Vérifier les logs
-tail -50 /tmp/hermes-agent.log
+# 5. Vérifier les logs
+tail -50 /tmp/hermes-gateway.log
 ```
 
-**Bloqueur identifié :**
-```
-ModuleNotFoundError: No module named 'buzz'
+**Vérification dans Buzz :**
+- Aller dans **Agents**
+- **Hermes IA Factory** doit être vert
+- Lui envoyer `salut` pour tester
+
+**Logs du gateway :**
+```bash
+tail -f /tmp/hermes-gateway.log
 ```
 
-**Pistes à creuser :**
-1. Installer le module depuis le repo NousResearch : `pip install git+https://github.com/NousResearch/hermes-agent.git`
-2. Chercher dans quel container Docker le module `buzz` est déjà présent (`docker exec ... python3 -c "import buzz"`)
-3. Contacter le support Nous Research / consulter la doc Hermes pour l'agent Buzz
+**Redémarrer le gateway si besoin :**
+```bash
+ps aux | grep hermes
+kill -9 <PID>
+su - hermeswebui -c 'nohup hermes gateway run > /tmp/hermes-gateway.log 2>&1 &'
+```
+
+### ❌ Erreurs à éviter
+
+- Ne pas créer la config dans `/root/.hermes/config.yaml` : le gateway ne la voit pas.
+- Ne pas lancer `hermes` sans argument : c'est un chat interactif, pas un gateway.
+- Lancer `hermes gateway run` (pas `hermes` seul).
 
 ---
 
